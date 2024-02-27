@@ -80,12 +80,22 @@ else:
 
 
 
+x or y
+x and y
+not x
+
+in	not in
+x in 리스트	x not in 리스트
+x in 튜플	x not in 튜플
+x in 문자열	x not in 문자열
 
 
+if 조건1:
+elif 조건2:
+else:
 
-
-
-
+score=70
+message ="success" if score >= 60 else "failure"
 
 
 
