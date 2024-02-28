@@ -97,7 +97,7 @@ else:
 score=70
 message ="success" if score >= 60 else "failure"
 
-
+answer = 2 if (str1.find(str2) == -1) else 1
 
 
 
