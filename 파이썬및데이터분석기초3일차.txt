@@ -1,0 +1,74 @@
+###반복문
+
+while 참:
+    <수행문장1>
+    break	
+
+while 참:
+    <수행문장1>
+    continue	
+
+hit=0
+while hit < 10:
+    hit +=1
+    print("count {}".format(hit))	
+	
+
+###함수
+  def 함수명1(매개변수..):
+
+### Class
+
+class 클래스명:
+    def 함수명1(self, 매개변수..):
+    ...
+    def 함수명1(self, 매개변수..):
+
+#생성
+객체 = 클래스()
+객체.함수명(매개변수)
+
+
+#상속
+class 클래스명2(클래스명):
+
+#생성자
+
+def __init__(self):
+    self.money = 0
+
+
+#상속자
+class Bank2(Bank):
+    pass # 빈객체이며 에러도 넘어가는 메서드 
+
+
+###예외처리
+
+try:
+    수행코드
+except:
+    수행코드
+
+
+try:
+    수행코드
+except FileNotFound:
+    수행코드
+except Zero:
+    수행코드
+finally:
+    파이널리 # 예외처리 안되어 최종에러시 파이널리 실행안됨
+
+
+raise 특정오류
+raise NameError  강제오류 발생
+
+
+	
+
+
+
+
+
+
