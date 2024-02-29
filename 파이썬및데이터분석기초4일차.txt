@@ -1,0 +1,83 @@
+
+###내장함수
+
+절대값 : abs()
+모두참 : all([1,2,3])
+하나라도 참 :any([1,2,3,0])
+몫과 나머지 : divmod(7,3) 
+
+리스트,튜플,문자열 위치와 값반환
+enumerate(['aa','bb','cc'])
+
+for i,j in enumerate(리스트)
+
+문자열 실행 결과 : eval('1+2')   
+
+참만 추출 개별대입
+filter(함수,리스트)  반환처리는 리스트로 담아서 출력반환
+
+주소값반환 : id()
+int('11',2 )  11을 2진법으로 표현가능
+
+모든 요소에 함수값 적용
+map(함수,리스트)
+
+max() 
+min()
+pow(2,4) 제곱함수
+range()
+반올림함수 : round(값 , 자리수)
+정렬   : sorted([1,4,5])
+str()
+sum([1,2,3])
+
+tuple("")
+type()
+
+동일한개수 묶어주는 함수 : zip([1],[2])  리스트를 하나로 묶음가능
+
+### 라이브러리
+
+import 라이브러리 [as 변경이름]
+from 라이브러리 import 개별함수 [as 변경이름]  
+
+random.randint(1,10)
+random.random()
+random.sample(데이터값,개수)
+
+random.shuffle(데이터) 무작위 데이터로 변환
+
+calendar.weekday()
+
+
+pandas 
+numpy
+tensorflow
+
+
+### Numpy 소개
+
+import numpy as np
+
+행렬변환 : np.array
+
+arr=np.array([1,2,3]) + 3   행렬시 병렬계산 가능 값더함 가능
+
+arr2=np.array([[1,2,3],[2,3,4]])
+print(arr2.shape)
+
+
+차원확인 : ndim
+
+데이터 타입변환 : astype('float64')
+데이터 타입확인 : dtype
+행렬 생성 가능 : arange(10)
+
+행렬 변경가능 : reshape
+
+행렬정렬 : np.sort(행렬데이터 , axis=0)
+행렬 인덱스 추출 : argsort
+
+
+
+
