@@ -1,0 +1,15 @@
+import pandas as pd
+
+star="*"
+ar=[]
+for i in range(5,0,-1):
+    ar.append(star*i)
+
+con1 = pd.DataFrame(ar ,columns=[''])
+con2 = pd.DataFrame(ar[::-1], columns=[''])
+
+combined_df = pd.concat([con1, con2], ignore_index=True)
+
+dfStyler = combined_df.style.set_properties(**{'text-align': 'left'})
+dfStyler.set_table_styles([dict(selector='th', props=[('display', 'none')])])
+
