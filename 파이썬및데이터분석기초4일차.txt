@@ -49,6 +49,8 @@ random.shuffle(데이터) 무작위 데이터로 변환
 
 calendar.weekday()
 
+변수복사 라이브러리 from copy import copy
+
 
 pandas 
 numpy
@@ -80,4 +82,51 @@ print(arr2.shape)
 
 
 
+### 판다스 개념
 
+파이썬 데이터 분석을 위한 라이브러리(표형태의 데이터 강점)
+
+1.엑셀,csv등 데이터 형식 지원
+2.결측치 처리 기능
+3.데이터 형태 바꾸기
+4.데이터 삭제 및 추가
+5.그룹화, 정렬, 결함
+6.시계열 데이터
+7.문자열 및 날짜/시간지원
+
+import pandas as pd
+
+pd.read_csv("파일이름.csv")
+
+pd.read_csv("파일이름.tsv",sep='\t')
+
+### 시리즈와 데이터프레임
+
+각각의 열 == 시리즈
+표 == 데이터프레임
+
+dic={"a":1,"b":2,"c":3}
+pd.Series(dic)
+a행 1 
+b행 2 
+c행 3
+
+box=['','','']
+pd.Series(box,index=['','',''])
+
+시리즈 행이름 확인
+.index
+.values 값확인
+
+dic={"이름":['홍','이','아'],
+	 "성별":['남','남','여'],
+	 "나이":[40,50,20],
+}
+
+.DataFrame(dic,index=[],columns=[])
+
+
+리스트로 데이터프레임
+
+box1=[['','',40],['','',30],['','',20]]
+.DataFrame(box1)
