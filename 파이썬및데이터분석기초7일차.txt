@@ -1,0 +1,87 @@
+
+### 열에서 행으로
+
+열에있는 값을 행으로 내리는 함수
+pd.melt(df,id_vars=...)
+
+열 분할하기
+시리즈.str.split(기준)
+
+수집
+시리즈.index()
+
+
+### 행에서 열로
+
+pd.pivot_table(
+index= 고정하고싶은열
+columns= 열로 올리고싶은
+values=새로 올라간열이 가지게될값
+dropna= T/F
+)
+
+
+인덱스를 새롭게
+df.reset_index() 
+
+
+### 데이터 순위 매기기
+
+df[열].rank (
+method=
+average
+min
+max
+first
+dense
+
+)
+
+### 상관분석
+상관계수 구하기
+r은 x와y가 함께 변하는 정도 / x와 y가 각각 변하는정도
+
+
+피어슨 상관계수
+공분산 / (x표준편차)(Y표준편차)
+import scipy.stats as stats
+
+stats.pearsonr(x,y)
+
+[상관계수,p-value]
+
+from sklearn.datasets import load_diabeltes  #당뇨병 라이브러리
+
+import seaborn as sns
+import pandas as pd 
+
+df.corr()
+
+### 정규표현식
+
+re findall("[]{}", 자료)
+
+
+
+----
+import pandas as pd
+
+t = pd.read_csv("titanic.csv")
+
+df = pd.DataFrame(t)
+df=df[['class','sex','age']]
+df1=df[(df['class'] == 'First') & (df['sex'] == 'female')]
+
+df1.fillna(df1['age'].mean()).round(1)
+
+
+
+df.insert(4,'성별2', df['age'].apply(lambda x: '어린이' if x < 20 else '기본값'))
+
+
+
+import seaborn as sns
+
+sns.set_them(style="darkgrid")
+
+ax=sns.countplot(x="",data=t)
