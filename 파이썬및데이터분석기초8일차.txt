@@ -1,0 +1,48 @@
+### 데이터 크롤링
+
+라이브러리
+
+requests  : 페이지요청 라이브러릴
+bs4의 BeautifulSoup : Python html 
+time : 안전하게 수집하는 방법
+pandas : 수집한 데이터 엑셀화
+
+###인터넷에 있는 표 데이터 프레임 생성방법
+
+pd.read_html(str(HTML)
+
+###인터넷에 뉴스 기사 크롤링
+
+import pandas as pd 
+from bs4 import BeautifulSoup as bs
+import time
+import requests  as req
+
+
+
+url = req.get()
+html = bs(url,text)
+html.find( '태그', class_='클래스네임' , ).find_all( '태그', class_='클래스네임')
+
+### 수집한 기사 빈도 분석 워드클라우드
+
+from wordcloud import WordCloud
+
+wc = WordCloud(fond_path="..",background_color="..",
+
+원하는 모양을 클라우드로 그리려면
+png파일로 흑백의 이미지가 필요함
+트럼프카드에 흑 하트 처럼 제작하면 그 모양으로 단어클라우드가 생성됨
+
+### 네트워크 반응으로 데이터 크롤링
+
+크롤링할때 네트워크 반응으로 정보가져오기
+
+import json
+import requests
+import pandas as pd 
+from bs4 import BeautifulSoup 
+
+
+json.loads(str(json))
+
