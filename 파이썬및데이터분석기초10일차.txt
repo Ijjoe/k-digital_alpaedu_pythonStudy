@@ -1,0 +1,49 @@
+### 데이터 분할 학습
+
+
+훈련데이터 학습과 시험데이터로 평가
+
+데이터 비율
+데이터가 적다면 75:25 비율 유지
+데이터가 많다면 99:1 99.9:0.1
+최대한 훈련데이터에 많은 비율 할당
+
+from sklearn.model_selection import train_test_split as ttp
+from sklearn.neighbors import KNeighborsClassifier
+
+
+훈련문제집,시험문제집,훈련정답지,시험정답지= ttp(문제집,정답지 , test_size= 0.25)
+
+
+### 데이터 스케일링 해야하는 이유
+길이데이터 < 무게데이터 숫자차징가 서로 많이 차이남
+그리하여 데이터 기준이 무게데이터로 편중할 가능성 있음
+from sklearn.model_selection import  StandardScaler
+
+MinMaxScaler
+RobustScaler   : 중앙값을 이용하여 중앙값을 빼고 사분위 값으로 나움 이상치의 영향 최소화
+
+x축 y축 의 차이가 많이 나는것은 데이터학습에 영향도있음
+
+## K 최근접 이웃 회귀 모델
+
+perch.csv에서 확실하게 구분이 안되는
+데이터들입 그래서 회귀 모델을 사용 
+연속적 수치를 맞추는 모델 
+ex) 생선의 길이로 --> 무게 예측
+
+
+KNeighborsRegressor 회귀 모델
+
+###선형 회귀
+
+LinearRegression
+
+기울기 : .coef_
+절편   : .intercept_
+
+변수가 많은것은 데이터 표준편차
+
+
+
+###특성공학을 이용해 특성늘리기
