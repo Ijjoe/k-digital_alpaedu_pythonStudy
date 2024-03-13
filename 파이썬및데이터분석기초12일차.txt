@@ -1,0 +1,16 @@
+### 인공신경과 딥러닝 만들기
+
+
+
+sparse_categorical_crossentropy <= 
+
+로드
+담기 data,target
+분할 train_test_split
+데이터표준화 StandardScaler
+검증데이터 
+
+모델도화지 생성
+model.add(keras.layers.Dense(3,activation ='softmax', input_shape=(4,)))
+                             은닉층 ,      은닉층활성화함수,             입력층 
+
