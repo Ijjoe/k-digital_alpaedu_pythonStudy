@@ -1,17 +1,20 @@
-<map version="freeplane 1.9.13">
+<map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="AI_파이썬_정리" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1710229526221"><hook NAME="MapStyle" background="#2e3440" zoom="0.769">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/dark_nord_template.mm" followedTemplateLocation="template:/dark_nord_template.mm" followedMapLastTime="1670390084000" fit_to_viewport="false"/>
+<node TEXT="AI_파이썬_정리" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1710229526221">
+<hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
+<font BOLD="true"/>
+<hook NAME="MapStyle" background="#2e3440" zoom="0.751">
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/dark_nord_template.mm" followedTemplateLocation="template:/dark_nord_template.mm" followedMapLastTime="1709275242000" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
-<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_671184412" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#484747" BACKGROUND_COLOR="#eceff4" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="true" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#88c0d0" WIDTH="2" TRANSPARENCY="255" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_671184412" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="11" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="bezier" COLOR="#81a1c1" WIDTH="3" DASH="SOLID"/>
-<richcontent CONTENT-TYPE="plain/auto" TYPE="DETAILS"/>
+<richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="plain/auto"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details" BORDER_WIDTH="1.9 px">
@@ -30,14 +33,15 @@
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.selection" COLOR="#e5e9f0" BACKGROUND_COLOR="#5e81ac" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#5e81ac"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="styles.important" ID="ID_779275544" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#bf616a">
 <icon BUILTIN="yes"/>
 <arrowlink COLOR="#bf616a" TRANSPARENCY="255" DESTINATION="ID_779275544"/>
 <font SIZE="14"/>
 </stylenode>
+<stylenode LOCALIZED_TEXT="styles.flower" COLOR="#ffffff" BACKGROUND_COLOR="#255aba" STYLE="oval" TEXT_ALIGN="CENTER" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="22 pt" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#f9d71c" BORDER_DASH_LIKE_EDGE="false" BORDER_DASH="CLOSE_DOTS" MAX_WIDTH="6 cm" MIN_WIDTH="3 cm"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#ffffff" BACKGROUND_COLOR="#484747" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
 <font NAME="Ubuntu" SIZE="18"/>
 </stylenode>
@@ -75,9 +79,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
-<font BOLD="true"/>
-<node TEXT="판다스" POSITION="right" ID="ID_1583717637" CREATED="1710230901697" MODIFIED="1710232112171">
+<node TEXT="판다스" POSITION="bottom_or_right" ID="ID_1583717637" CREATED="1710230901697" MODIFIED="1710232112171">
 <node TEXT="pd.DataFrame(ndarray, index = [ ], column = [ ]) 기본형&#xa;&#xa;df = pd.DataFrame({&#xa;    &apos;name&apos; : [&apos;dive&apos;,&apos;idol&apos;,&apos;fire&apos;]&#xa;    ,&apos;sex&apos; : [&apos;M&apos;,&apos;F&apos;,&apos;M&apos;]&#xa;    ,&apos;age&apos;: [30,20,15]&#xa;},index=)" ID="ID_1873027471" CREATED="1710230910255" MODIFIED="1710231340191">
 <node TEXT="s=pd.read_csv(&quot;person_info.csv&quot;,encoding=&apos;euc-kr&apos;)" ID="ID_1494651885" CREATED="1710232919228" MODIFIED="1710232921066"/>
 <node TEXT="df.loc[[0,5],[&apos;이름&apos;,&apos;나이&apos;]]" ID="ID_1528154644" CREATED="1710233058316" MODIFIED="1710233060025"/>
@@ -101,6 +103,6 @@
 <node TEXT=".nunique()" ID="ID_272791181" CREATED="1710232507992" MODIFIED="1710232918427"/>
 </node>
 </node>
-<node TEXT=" 여러줄 주석 : 큰따옴표 3개, 작은따옴표 3개" POSITION="left" ID="ID_1679602396" CREATED="1710231471952" MODIFIED="1710231474909"/>
+<node TEXT=" 여러줄 주석 : 큰따옴표 3개, 작은따옴표 3개" POSITION="top_or_left" ID="ID_1679602396" CREATED="1710231471952" MODIFIED="1710231474909"/>
 </node>
 </map>
