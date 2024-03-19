@@ -173,6 +173,26 @@
 <font BOLD="true" ITALIC="true"/>
 </node>
 </node>
+<node TEXT="Fetch and XHR&#xa;------------&#xa;JS" ID="ID_90327366" CREATED="1710832702322" MODIFIED="1710832731324">
+<node TEXT="Preview" ID="ID_310050963" CREATED="1710832848728" MODIFIED="1710832860747">
+<node TEXT="" ID="ID_1351349691" CREATED="1710833303837" MODIFIED="1710833303837"/>
+<node TEXT="JSON" ID="ID_321527274" CREATED="1710833648902" MODIFIED="1710833656708">
+<node TEXT="딕셔너리로 형변환" ID="ID_1307332372" CREATED="1710833653587" MODIFIED="1710833666986">
+<node TEXT="import json&#xa;형변환&#xa;&#xa;json.loads(resp.content)" ID="ID_294279051" CREATED="1710833671303" MODIFIED="1710833856676">
+<font BOLD="true"/>
+<node TEXT="딕셔너리 -&gt; 형변환 dumps({...})" ID="ID_666818788" CREATED="1710833758992" MODIFIED="1710833860755">
+<font BOLD="true"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="모듈" ID="ID_1012849291" CREATED="1710832746360" MODIFIED="1710832751511">
+<node TEXT="DOC 샘플" ID="ID_1857230267" CREATED="1710832762429" MODIFIED="1710832770426">
+<node TEXT="def function(a):&#xa;    &quot;&quot;&quot;이것은 함수입니다.&#xa;&#xa;    Args:&#xa;        a: 매개변수로 뭔가를 받습니다.&#xa;&#xa;    Returns:&#xa;        뭔가를 반환합니다.&#xa;    &quot;&quot;&quot;&#xa;    return a&#xa;&#xa;if __name__ == &quot;__main__&quot;:&#xa;    print(function.__doc__)" ID="ID_1930741230" CREATED="1710832772128" MODIFIED="1710832774725"/>
+</node>
 </node>
 </node>
 <node TEXT="Offline5차수업" POSITION="top_or_left" ID="ID_764150158" CREATED="1710734155850" MODIFIED="1710734198906"/>
