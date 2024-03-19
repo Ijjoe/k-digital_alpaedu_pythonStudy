@@ -150,6 +150,30 @@
 <node TEXT="with open(&apos;/content/cospi200/cosip2001.csv&apos;,&apos;a&apos;) as f:&#xa;    f.write(df_ksp200.to_csv())&#xa;&#xa;&#xa;f.close()" ID="ID_1943626599" CREATED="1710811807027" MODIFIED="1710811820881">
 <node TEXT="df_ksp200.to_csv(&apos;코스피200_일별시세.csv&apos;, encoding=&apos;utf-8-sig&apos;, index=False)" ID="ID_1252356509" CREATED="1710812871650" MODIFIED="1710812874248"/>
 </node>
+<node TEXT="3분위와 1분위의 차이 ( 인터쿼터럴)" ID="ID_816039484" CREATED="1710815246176" MODIFIED="1710815268270">
+<node TEXT="pd.describe()" ID="ID_24747430" CREATED="1710815274543" MODIFIED="1710815294918"/>
+</node>
+<node TEXT="EDA" ID="ID_1303024269" CREATED="1710815511690" MODIFIED="1710815520766"/>
+<node TEXT="헤더정보" ID="ID_728177091" CREATED="1710824947904" MODIFIED="1710824954129">
+<node TEXT="   headers={&apos;User-Agent&apos;:&apos;Mozilla/5.1 (Windows NT 10.0; Win64; x64) AppleWebKit/532.36 (KHTML, like Gecko) Chrome/122.1.0.0 Safari/537.36&apos;,&#xa;             &apos;Accept-Language&apos;: &apos;en-US&apos;}&#xa;    #url = &apos;https://search.naver.com/search.naver?where=news&amp;ie=utf8&amp;sm=nws_hty&amp;query=%ED%95%9C%EC%8B%9D+%EB%B7%94%ED%8E%98&apos;&#xa;    url=&apos;https://search.naver.com/search.naver?where=news&amp;ie=utf8&amp;sm=nws_hty&amp;query=%ED%95%9C%EC%8B%9D&apos;&#xa;    resp = requests.get(url,headers=headers)&#xa;&#xa;    #print(url)&#xa;&#xa;    soup = BeautifulSoup(resp.content, &apos;lxml&apos;)&#xa;    print(soup)&#xa;    nnew= soup.select(&apos;a[class=info]&apos;)" ID="ID_250450796" CREATED="1710824956628" MODIFIED="1710824959299"/>
+</node>
+<node TEXT="bs4 TYPE" ID="ID_1800012918" CREATED="1710830607068" MODIFIED="1710830618276">
+<node TEXT="bs4.element.ResultSet" POSITION="top_or_left" ID="ID_1911645593" CREATED="1710830585526" MODIFIED="1710830587527">
+<node TEXT="#태그 찾기&#xa;soup.select(&quot;title&quot;)&#xa;&#xa;#특정 태그 아래에 있는 태그 찾기&#xa;soup.select(&quot;div a&quot;) #div 태그 아래에 있는 a 태그 찾기&#xa;&#xa;#특정 태그 바로 아래에 있는 태그 찾기&#xa;soup.select(&quot;head &gt; title&quot;)&#xa;soup.select(&quot;head &gt; #link1&quot;) #아이디로 태그 찾음&#xa;&#xa;#태그들의 형제 태그 찾기&#xa;soup.select(&quot;#link1 ~ .sister&quot;)&#xa;soup.select(&quot;#link1 + .sister&quot;)&#xa;&#xa;#CSS class로 태그 찾기&#xa;soup.select(&quot;.sister&quot;)&#xa;&#xa;#ID값으로 태그 찾기&#xa;soup.select(&quot;#link1&quot;)" ID="ID_274482390" CREATED="1710830631589" MODIFIED="1710830643391"/>
+</node>
+<node TEXT="bs4.element.tag" POSITION="top_or_left" ID="ID_305682720" CREATED="1710830590217" MODIFIED="1710830603271">
+<node TEXT="tag = &quot;&lt;p class=&apos;example&apos; id=&apos;test01&apos;&gt; Hello World! &lt;/p&gt;&quot;&#xa;soup = BeautifulSoup(tag)&#xa;&#xa;# 태그 이름만 특정&#xa;soup.find(&apos;p&apos;)&#xa;&#xa;# 태그 속성만 특정&#xa;soup.find(class_=&apos;example&apos;)&#xa;soup.find(attrs = {&apos;class&apos;:&apos;exmaple&apos;})&#xa;&#xa;# 태그 이름과 속성 모두 특정&#xa;soup.find(&apos;p&apos;, class_=&apos;example&apos;)" ID="ID_386294711" CREATED="1710830645239" MODIFIED="1710830647096"/>
+</node>
+</node>
+<node TEXT="요청거절" ID="ID_483000483" CREATED="1710831273360" MODIFIED="1710831474171" COLOR="#ff0000" BACKGROUND_COLOR="#ffff33">
+<font BOLD="true" ITALIC="true"/>
+<node TEXT="헤더 -&gt; 쿠키(로그인)해당  -&gt; 어쏘 -&gt; 모든헤더" ID="ID_197404599" CREATED="1710831291256" MODIFIED="1710831480635" COLOR="#ff0000" BACKGROUND_COLOR="#ffff33">
+<font BOLD="true" ITALIC="true"/>
+<node TEXT="post까지" ID="ID_412896349" CREATED="1710831377692" MODIFIED="1710831464133" COLOR="#ff0000" BACKGROUND_COLOR="#ffff33">
+<font BOLD="true" ITALIC="true"/>
+</node>
+</node>
+</node>
 </node>
 <node TEXT="Offline5차수업" POSITION="top_or_left" ID="ID_764150158" CREATED="1710734155850" MODIFIED="1710734198906"/>
 </node>
