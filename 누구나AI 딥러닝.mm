@@ -1,6 +1,6 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="누구나AI 딥러닝" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1708914994451"><hook NAME="MapStyle" background="#2e3440" zoom="0.826">
+<node TEXT="누구나AI 딥러닝" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1708914994451"><hook NAME="MapStyle" background="#2e3440" zoom="0.565">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/dark_nord_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
@@ -195,6 +195,10 @@
 </node>
 </node>
 </node>
-<node TEXT="Offline5차수업" POSITION="top_or_left" ID="ID_764150158" CREATED="1710734155850" MODIFIED="1710734198906"/>
+<node TEXT="Offline5차수업" POSITION="top_or_left" ID="ID_764150158" CREATED="1710734155850" MODIFIED="1710734198906">
+<node TEXT="# jupyterteme 패키지 설치&#xa;pip install jupyterthemes&#xa;&#xa;# 추천 테마 및 옵션 적용&#xa;jt -t onedork -fs 115 -nfs 125 -tfs 115 -dfs 115 -ofs 115 -cursc r -cellw 80% -lineh 115 -altmd  -kl -T -N&#xa;&#xa;# 끝" ID="ID_1930189387" CREATED="1710894284675" MODIFIED="1710894286729"/>
+<node TEXT="Pyppeteer" ID="ID_103864194" CREATED="1710908359181" MODIFIED="1710908361249"/>
+</node>
+<node TEXT="6주후 재만남" POSITION="top_or_left" ID="ID_974247529" CREATED="1710924961001" MODIFIED="1710924999835"/>
 </node>
 </map>
