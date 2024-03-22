@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+example_package_cij/__init__.py
+example_package_cij/examplecij.py
+example_package_cij.egg-info/PKG-INFO
+example_package_cij.egg-info/SOURCES.txt
+example_package_cij.egg-info/dependency_links.txt
+example_package_cij.egg-info/requires.txt
+example_package_cij.egg-info/top_level.txt

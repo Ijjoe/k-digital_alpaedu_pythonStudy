@@ -1,0 +1,17 @@
+[project]
+name = "example_package_cij"
+version = "0.0.2"
+authors = [
+  { name="cij", email="author@example.com" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/Ijjoe/k-digital_alpaedu_pythonStudy"
