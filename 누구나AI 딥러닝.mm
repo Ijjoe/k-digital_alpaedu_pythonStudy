@@ -1,6 +1,6 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="누구나AI 딥러닝" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1708914994451"><hook NAME="MapStyle" background="#2e3440" zoom="0.912">
+<node TEXT="누구나AI 딥러닝" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1708914994451"><hook NAME="MapStyle" background="#2e3440" zoom="0.829">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/dark_nord_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
@@ -221,6 +221,36 @@
 </node>
 <node TEXT="텍스트_분석.ipynb의 사본" ID="ID_370079468" CREATED="1710997485591" MODIFIED="1711005311945">
 <node TEXT="https://colab.research.google.com/drive/1Fg4pVE_o1HjmfP_6K9WQ9b_ga0IWkGcP" ID="ID_250155754" CREATED="1711005313722" MODIFIED="1711005316731"/>
+</node>
+<node TEXT="3/22" ID="ID_1996386788" CREATED="1711066681185" MODIFIED="1711066687691">
+<node TEXT="시간재는 함수" ID="ID_959443316" CREATED="1711066691839" MODIFIED="1711066702703">
+<node TEXT="%%timeit" POSITION="top_or_left" ID="ID_1855788838" CREATED="1711066641530" MODIFIED="1711066673471"/>
+</node>
+<node TEXT="개별 pypi test 올림" POSITION="top_or_left" ID="ID_1589251575" CREATED="1711079468264" MODIFIED="1711079501315">
+<node TEXT="https://test.pypi.org/manage/projects/" ID="ID_913378818" CREATED="1711079589264" MODIFIED="1711079594500"/>
+<node TEXT="설치" ID="ID_342714198" CREATED="1711079645685" MODIFIED="1711079648795">
+<node TEXT="pip install -i https://test.pypi.org/simple/ example-package-cij" POSITION="top_or_left" ID="ID_441611744" CREATED="1711079642857" MODIFIED="1711079658748"/>
+</node>
+<node TEXT="C:\Users\{사용자위치}" ID="ID_257757999" CREATED="1711079689488" MODIFIED="1711079700779">
+<node TEXT=".pypirc" ID="ID_291465142" CREATED="1711079708657" MODIFIED="1711079710508">
+<node TEXT="[testpypi]&#xa;  username = __token__&#xa;  password = pypi- ...." ID="ID_806015293" CREATED="1711079719558" MODIFIED="1711079736564"/>
+</node>
+</node>
+<node TEXT="업로드" ID="ID_965910902" CREATED="1711079876310" MODIFIED="1711079881386">
+<node TEXT="py -m twine upload --repository testpypi dist/*" ID="ID_1107856360" CREATED="1711079883151" MODIFIED="1711079884788"/>
+</node>
+<node TEXT="빌드" ID="ID_1699434949" CREATED="1711079897004" MODIFIED="1711079908175">
+<node TEXT="py -m build" ID="ID_1746256827" CREATED="1711079910336" MODIFIED="1711079913388"/>
+</node>
+</node>
+<node TEXT="packaging_tutorial/&#xa;├── LICENSE&#xa;├── pyproject.toml&#xa;├── README.md&#xa;├── setup.py&#xa;├── src/&#xa;│   └── example_package_YOUR_USERNAME_HERE/&#xa;│       ├── __init__.py&#xa;│       └── example.py&#xa;└── tests/" ID="ID_970268885" CREATED="1711080608116" MODIFIED="1711080848815">
+<node TEXT="setup.py" ID="ID_960462929" CREATED="1711080880601" MODIFIED="1711080886492">
+<node TEXT="from setuptools import setup, find_packages&#xa;&#xa;setup(&#xa;    name=&apos;example_package_cij&apos;,&#xa;    version=&apos;0.2&apos;,&#xa;    packages=find_packages(),&#xa;    install_requires=[&#xa;        &apos;numpy&apos;,  # 예시 종속성&#xa;        &apos;bs4&apos;,&#xa;        &apos;requests&apos;&#xa;    ],&#xa;    # 추가 메타데이터&#xa;)" POSITION="top_or_left" ID="ID_285471680" CREATED="1711080868536" MODIFIED="1711080872244"/>
+</node>
+</node>
+<node TEXT="미술경매" ID="ID_1751189733" CREATED="1711085559397" MODIFIED="1711085572592">
+<node TEXT="http://www.porart.com/board_list.php?boardIndex=93" ID="ID_1177482290" CREATED="1711085575237" MODIFIED="1711085588787"/>
+</node>
 </node>
 </node>
 </node>
