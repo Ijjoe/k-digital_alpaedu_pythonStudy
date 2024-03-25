@@ -282,12 +282,17 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 </node>
-<node TEXT="" POSITION="bottom_or_right" ID="ID_1447753918" CREATED="1711325997733" MODIFIED="1711325997733"/>
+<node TEXT="bomtoon project" POSITION="bottom_or_right" ID="ID_1447753918" CREATED="1711325997733" MODIFIED="1711374679545">
+<node TEXT="error 발생 모음" ID="ID_600784304" CREATED="1711374680688" MODIFIED="1711374691746">
+<node TEXT="AttributeError: &apos;str&apos; object has no attribute &apos;capabilities&apos;" ID="ID_1031786430" CREATED="1711374693964" MODIFIED="1711374696858">
+<node TEXT="https://noanomal.tistory.com/422" ID="ID_611294900" CREATED="1711374843685" MODIFIED="1711374846387"/>
+</node>
+</node>
+</node>
 <node TEXT="" POSITION="bottom_or_right" ID="ID_32657339" CREATED="1711326001646" MODIFIED="1711326001646"/>
 <node TEXT="" POSITION="bottom_or_right" ID="ID_1059102418" CREATED="1711326004477" MODIFIED="1711326004477"/>
 <node TEXT="" POSITION="bottom_or_right" ID="ID_24364" CREATED="1711326007442" MODIFIED="1711326007442"/>
