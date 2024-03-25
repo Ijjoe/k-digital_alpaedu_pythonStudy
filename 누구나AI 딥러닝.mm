@@ -1,6 +1,6 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="누구나AI 딥러닝" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1708914994451"><hook NAME="MapStyle" background="#2e3440" zoom="0.829">
+<node TEXT="누구나AI 딥러닝" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1708914994451"><hook NAME="MapStyle" background="#2e3440" zoom="1.213">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/dark_nord_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
@@ -217,7 +217,7 @@
 </node>
 <node TEXT="" POSITION="top_or_left" ID="ID_1512477391" CREATED="1710994334928" MODIFIED="1710994334928">
 <node TEXT="데이터 전처리 및 TEXT Mining 류영표" POSITION="top_or_left" ID="ID_1079272830" CREATED="1710994280169" MODIFIED="1710994323563">
-<node TEXT="https://github.com/Youngpyoryu" ID="ID_391092626" CREATED="1711005074678" MODIFIED="1711005076860"/>
+<node TEXT="https://github.com/Youngpyoryu" ID="ID_391092626" CREATED="1711005074678" MODIFIED="1711326314531" LINK="https://github.com/Youngpyoryu"/>
 </node>
 <node TEXT="텍스트_분석.ipynb의 사본" ID="ID_370079468" CREATED="1710997485591" MODIFIED="1711005311945">
 <node TEXT="https://colab.research.google.com/drive/1Fg4pVE_o1HjmfP_6K9WQ9b_ga0IWkGcP" ID="ID_250155754" CREATED="1711005313722" MODIFIED="1711005316731"/>
@@ -253,5 +253,21 @@
 </node>
 </node>
 </node>
+<node TEXT="3/25" POSITION="top_or_left" ID="ID_912517141" CREATED="1711325921708" MODIFIED="1711325985790">
+<node TEXT="https://pola.rs/" ID="ID_204849455" CREATED="1711325969878" MODIFIED="1711326098050">
+<node TEXT="" ID="ID_359404680" CREATED="1711325970761" MODIFIED="1711325970761"/>
+</node>
+<node TEXT="불용어(stopword)" ID="ID_938916406" CREATED="1711329736638" MODIFIED="1711329746215">
+<node TEXT="큰 의미가 없는 단어를 패키지화하였음" ID="ID_911978425" CREATED="1711329754438" MODIFIED="1711329790436"/>
+</node>
+<node TEXT="tokens = nltk.word_tokenize(sentence)  # 단어를 분리해줌" ID="ID_1718819876" CREATED="1711333274382" MODIFIED="1711333276165">
+<node TEXT="tagged = nltk.pos_tag(tokens)  # 문장의 품사를 같이 붙이는 함수" ID="ID_688636540" CREATED="1711333283681" MODIFIED="1711333285437"/>
+</node>
+<node TEXT="튜플(값을 지울수없고 변경도 안됨)" ID="ID_1069682217" CREATED="1711333604934" MODIFIED="1711333627655"/>
+</node>
+<node TEXT="" POSITION="bottom_or_right" ID="ID_1447753918" CREATED="1711325997733" MODIFIED="1711325997733"/>
+<node TEXT="" POSITION="bottom_or_right" ID="ID_32657339" CREATED="1711326001646" MODIFIED="1711326001646"/>
+<node TEXT="" POSITION="bottom_or_right" ID="ID_1059102418" CREATED="1711326004477" MODIFIED="1711326004477"/>
+<node TEXT="" POSITION="bottom_or_right" ID="ID_24364" CREATED="1711326007442" MODIFIED="1711326007442"/>
 </node>
 </map>
