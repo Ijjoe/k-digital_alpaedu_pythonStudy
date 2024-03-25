@@ -269,6 +269,23 @@
 <node TEXT="!pip list | findstr  pandas" ID="ID_1226481495" CREATED="1711347541437" MODIFIED="1711347544494"/>
 <node TEXT="!pip list" POSITION="top_or_left" ID="ID_534339928" CREATED="1711347116975" MODIFIED="1711347552477"/>
 </node>
+<node TEXT="IQR(InterQuartile Range) 사분범위" ID="ID_167145331" CREATED="1711348363263" MODIFIED="1711348439309">
+<node ID="ID_1753634111" CREATED="1711348460152" MODIFIED="1711348488907" LINK="https://blog.naver.com/sw4r/221021173204"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="color: #0000c0;">https://blog.naver.com/sw4r/221021173204</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 </node>
 <node TEXT="" POSITION="bottom_or_right" ID="ID_1447753918" CREATED="1711325997733" MODIFIED="1711325997733"/>
 <node TEXT="" POSITION="bottom_or_right" ID="ID_32657339" CREATED="1711326001646" MODIFIED="1711326001646"/>
