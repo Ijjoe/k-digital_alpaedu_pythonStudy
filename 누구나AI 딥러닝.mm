@@ -1,6 +1,6 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="누구나AI 딥러닝" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1708914994451"><hook NAME="MapStyle" background="#2e3440" zoom="1.213">
+<node TEXT="누구나AI 딥러닝" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1708914994451"><hook NAME="MapStyle" background="#2e3440" zoom="0.912">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/dark_nord_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
@@ -293,7 +293,20 @@
 </node>
 </node>
 </node>
-<node TEXT="" POSITION="bottom_or_right" ID="ID_32657339" CREATED="1711326001646" MODIFIED="1711326001646"/>
+<node TEXT="3/26" POSITION="bottom_or_right" ID="ID_32657339" CREATED="1711326001646" MODIFIED="1711415923855">
+<node TEXT="nojs설치" ID="ID_22008918" CREATED="1711415928446" MODIFIED="1711415935505">
+<node TEXT="https://github.com/GoogleChromeLabs/chrome-for-testing?tab=readme-ov-file#json-api-endpoints" ID="ID_403636376" CREATED="1711415960498" MODIFIED="1711415963738">
+<node TEXT="파일다운 후 압축풀고 npm run find 실행으로 버전 자동 체크" ID="ID_1342231651" CREATED="1711415964864" MODIFIED="1711415987458"/>
+</node>
+</node>
+<node TEXT="n-gram LM" ID="ID_630828188" CREATED="1711419760738" MODIFIED="1711419763290">
+<node TEXT="이해도 ??" ID="ID_756412602" CREATED="1711419764309" MODIFIED="1711419770484"/>
+</node>
+<node TEXT="셀레늄" ID="ID_1456448017" CREATED="1711431457606" MODIFIED="1711431464537">
+<node TEXT="태그 갯수 findElements().size()" ID="ID_69776442" CREATED="1711431465840" MODIFIED="1711431475038"/>
+</node>
+<node TEXT="overfitting == 과적합" ID="ID_241634210" CREATED="1711433508867" MODIFIED="1711433530979"/>
+</node>
 <node TEXT="" POSITION="bottom_or_right" ID="ID_1059102418" CREATED="1711326004477" MODIFIED="1711326004477"/>
 <node TEXT="" POSITION="bottom_or_right" ID="ID_24364" CREATED="1711326007442" MODIFIED="1711326007442"/>
 </node>
