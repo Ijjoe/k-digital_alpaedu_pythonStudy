@@ -309,6 +309,7 @@
 </node>
 <node TEXT="3/27" POSITION="bottom_or_right" ID="ID_1059102418" CREATED="1711326004477" MODIFIED="1711496783875">
 <node TEXT="&gt;&gt;&gt; r = requests.get()&#xa;&gt;&gt;&gt; r.status_code&#xa;&gt;&gt;&gt; r.headers # represents the headers as a dictionary&#xa;&gt;&gt;&gt; r.text    # represents the response body as a strings&#xa;&gt;&gt;&gt; r.content # represents the response body as a binary&#xa;&gt;&gt;&gt; r.json()  # parses the response body in JSON format&#xa;&gt;&gt;&gt; r.request # represents the request as requests.models.PreparedRequest&#xa;&gt;&gt;&gt; dir(r)&#xa;[&apos;__attrs__&apos;, ..., &apos;apparent_encoding&apos;, &apos;close&apos;, &apos;connection&apos;,&#xa; &apos;content&apos;, &apos;cookies&apos;, &apos;elapsed&apos;, &apos;encoding&apos;, &apos;headers&apos;, &apos;history&apos;,&#xa; &apos;is_permanent_redirect&apos;, &apos;is_redirect&apos;, &apos;iter_content&apos;, &apos;iter_lines&apos;,&#xa; &apos;json&apos;, &apos;links&apos;, &apos;next&apos;, &apos;ok&apos;, &apos;raise_for_status&apos;, &apos;raw&apos;, &apos;reason&apos;,&#xa; &apos;request&apos;, &apos;status_code&apos;, &apos;text&apos;, &apos;url&apos;&#xa;]" ID="ID_507168900" CREATED="1711499596622" MODIFIED="1711499603264"/>
+<node TEXT="dict_keys([&apos;result&apos;, &apos;data&apos;])" ID="ID_312712069" CREATED="1711515601208" MODIFIED="1711515605317"/>
 </node>
 <node TEXT="" POSITION="bottom_or_right" ID="ID_24364" CREATED="1711326007442" MODIFIED="1711326007442"/>
 </node>
