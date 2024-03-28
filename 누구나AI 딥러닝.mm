@@ -1,6 +1,6 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="누구나AI 딥러닝" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1708914994451"><hook NAME="MapStyle" background="#2e3440" zoom="0.912">
+<node TEXT="누구나AI 딥러닝" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1708914994451"><hook NAME="MapStyle" background="#2e3440" zoom="0.685">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/dark_nord_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
@@ -311,6 +311,6 @@
 <node TEXT="&gt;&gt;&gt; r = requests.get()&#xa;&gt;&gt;&gt; r.status_code&#xa;&gt;&gt;&gt; r.headers # represents the headers as a dictionary&#xa;&gt;&gt;&gt; r.text    # represents the response body as a strings&#xa;&gt;&gt;&gt; r.content # represents the response body as a binary&#xa;&gt;&gt;&gt; r.json()  # parses the response body in JSON format&#xa;&gt;&gt;&gt; r.request # represents the request as requests.models.PreparedRequest&#xa;&gt;&gt;&gt; dir(r)&#xa;[&apos;__attrs__&apos;, ..., &apos;apparent_encoding&apos;, &apos;close&apos;, &apos;connection&apos;,&#xa; &apos;content&apos;, &apos;cookies&apos;, &apos;elapsed&apos;, &apos;encoding&apos;, &apos;headers&apos;, &apos;history&apos;,&#xa; &apos;is_permanent_redirect&apos;, &apos;is_redirect&apos;, &apos;iter_content&apos;, &apos;iter_lines&apos;,&#xa; &apos;json&apos;, &apos;links&apos;, &apos;next&apos;, &apos;ok&apos;, &apos;raise_for_status&apos;, &apos;raw&apos;, &apos;reason&apos;,&#xa; &apos;request&apos;, &apos;status_code&apos;, &apos;text&apos;, &apos;url&apos;&#xa;]" ID="ID_507168900" CREATED="1711499596622" MODIFIED="1711499603264"/>
 <node TEXT="dict_keys([&apos;result&apos;, &apos;data&apos;])" ID="ID_312712069" CREATED="1711515601208" MODIFIED="1711515605317"/>
 </node>
-<node TEXT="" POSITION="bottom_or_right" ID="ID_24364" CREATED="1711326007442" MODIFIED="1711326007442"/>
+<node TEXT="3/28" POSITION="bottom_or_right" ID="ID_24364" CREATED="1711326007442" MODIFIED="1711604572982"/>
 </node>
 </map>
