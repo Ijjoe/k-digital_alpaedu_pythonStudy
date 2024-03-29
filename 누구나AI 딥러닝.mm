@@ -312,5 +312,9 @@
 <node TEXT="dict_keys([&apos;result&apos;, &apos;data&apos;])" ID="ID_312712069" CREATED="1711515601208" MODIFIED="1711515605317"/>
 </node>
 <node TEXT="3/28" POSITION="bottom_or_right" ID="ID_24364" CREATED="1711326007442" MODIFIED="1711604572982"/>
+<node TEXT="3/29" POSITION="bottom_or_right" ID="ID_1530598620" CREATED="1711683322474" MODIFIED="1711683330013">
+<node TEXT="ndarray 는다차원배열이며  넘파이에서 행렬로 본다" ID="ID_1444934865" CREATED="1711700002048" MODIFIED="1711700152012"/>
+<node TEXT="https://compmath.korea.ac.kr/appmath/NumpyBasics.html" ID="ID_955678599" CREATED="1711700418912" MODIFIED="1711700421402"/>
+</node>
 </node>
 </map>
