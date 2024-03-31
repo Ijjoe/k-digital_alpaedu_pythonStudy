@@ -291,6 +291,16 @@
 <node TEXT="AttributeError: &apos;str&apos; object has no attribute &apos;capabilities&apos;" ID="ID_1031786430" CREATED="1711374693964" MODIFIED="1711374696858">
 <node TEXT="https://noanomal.tistory.com/422" ID="ID_611294900" CREATED="1711374843685" MODIFIED="1711374846387"/>
 </node>
+<node TEXT="AttributeError: &apos;WebDriver&apos; object has no attribute &apos;manage&apos;" ID="ID_187885594" CREATED="1711462144214" MODIFIED="1711462147637">
+<node TEXT="파이썬은 함수가다름" ID="ID_394765546" CREATED="1711462243137" MODIFIED="1711462258040">
+<node TEXT="driver.get_cookies()" ID="ID_1881355012" CREATED="1711462260603" MODIFIED="1711462271662" COLOR="#ff3333">
+<font BOLD="true"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="코드정리" ID="ID_616754941" CREATED="1711463172741" MODIFIED="1711463177170">
+<node TEXT="co=driver.get_cookies()&#xa;&#xa;dict={}&#xa;&#xa;# 모든 쿠키에 대해 &apos;name&apos;과 &apos;value&apos; 출력&#xa;for cookie in co:&#xa;    dict[cookie[&apos;name&apos;]]=cookie[&apos;value&apos;]" ID="ID_497827270" CREATED="1711463178814" MODIFIED="1711463181917"/>
 </node>
 </node>
 <node TEXT="3/26" POSITION="bottom_or_right" ID="ID_32657339" CREATED="1711326001646" MODIFIED="1711415923855">
