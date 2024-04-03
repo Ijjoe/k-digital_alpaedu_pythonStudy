@@ -326,5 +326,26 @@
 <node TEXT="ndarray 는다차원배열이며  넘파이에서 행렬로 본다" ID="ID_1444934865" CREATED="1711700002048" MODIFIED="1711700152012"/>
 <node TEXT="https://compmath.korea.ac.kr/appmath/NumpyBasics.html" ID="ID_955678599" CREATED="1711700418912" MODIFIED="1711700421402"/>
 </node>
+<node TEXT="4/03" POSITION="bottom_or_right" ID="ID_1216665568" CREATED="1712109167872" MODIFIED="1712109178416">
+<node TEXT="데이터 결측치 확인 (판다스)" ID="ID_121597233" CREATED="1712109179536" MODIFIED="1712109201970"/>
+<node TEXT="당뇨병 환자 파악 데이터" ID="ID_1434991107" CREATED="1712119685720" MODIFIED="1712119747243">
+<node TEXT="data=pd.read_csv(&apos;/content/diabetes.csv&apos;)" ID="ID_1960527846" CREATED="1712119746441" MODIFIED="1712119749519">
+<node TEXT="data[&apos;Outcome&apos;].value_counts()" POSITION="bottom_or_right" ID="ID_1287173973" CREATED="1712119703047" MODIFIED="1712119745965"/>
+<node TEXT="data.describe()" ID="ID_1690041495" CREATED="1712119773806" MODIFIED="1712119775670"/>
+<node TEXT="data.shape" ID="ID_849547057" CREATED="1712119783025" MODIFIED="1712119797206"/>
+<node TEXT="data[&apos;Pregnancies&apos;].hist()" ID="ID_1981539133" CREATED="1712119799571" MODIFIED="1712119801271"/>
+<node TEXT="data.info()" ID="ID_1841509908" CREATED="1712119803679" MODIFIED="1712119812839"/>
+</node>
+<node TEXT="그래프 유형을 많이 알아야 됨" ID="ID_1372086381" CREATED="1712121151924" MODIFIED="1712121164547"/>
+</node>
+<node TEXT="EDA 기술" ID="ID_1952578252" CREATED="1712123914754" MODIFIED="1712123922491">
+<node TEXT="1. raw data 의 description, dictionary 를 통해 데이터의 각 column들과 row의 의미를 이해하는 기술." ID="ID_926770040" CREATED="1712123924847" MODIFIED="1712123927589"/>
+<node TEXT="2. 결측치 처리 및 데이터필터링 기술." ID="ID_273536875" CREATED="1712123937996" MODIFIED="1712123939493">
+<node TEXT="수치형 데이터(numerical data)인데 범주형(categorical data)으로 되어 있다면 (데이터 타입이 ‘object’로 뜸) 수치형으로 변환(ex. astype 활용)해줘야 한다.&#xa;&#xa;데이터에 결측치 (NaN, N/A 등) 가 있거나, 수치형이어야 하는데 범주형/비수치형(non-numerical data) 으로 들어가 있는 데이터" ID="ID_34957878" CREATED="1712123955860" MODIFIED="1712123957677"/>
+</node>
+<node TEXT="3. 누구나 이해하기 쉬운 시각화를 하는 기술." ID="ID_871558910" CREATED="1712123965807" MODIFIED="1712124579779"/>
+<node TEXT="https://jalynne-kim.medium.com/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D-%EA%B8%B0%EC%B4%88-eda%EC%9D%98-%EA%B0%9C%EB%85%90%EA%B3%BC-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D-%EC%9E%98-%ED%95%98%EB%8A%94-%EB%B2%95-a3cac2cc5ebc" ID="ID_897273130" CREATED="1712124581137" MODIFIED="1712124583778"/>
+</node>
+</node>
 </node>
 </map>
