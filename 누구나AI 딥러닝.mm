@@ -1,6 +1,6 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="누구나AI 딥러닝" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1708914994451"><hook NAME="MapStyle" background="#2e3440" zoom="0.685">
+<node TEXT="누구나AI 딥러닝" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1708914994451"><hook NAME="MapStyle" background="#2e3440" zoom="0.829">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/dark_nord_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
@@ -342,9 +342,27 @@
 <node TEXT="1. raw data 의 description, dictionary 를 통해 데이터의 각 column들과 row의 의미를 이해하는 기술." ID="ID_926770040" CREATED="1712123924847" MODIFIED="1712123927589"/>
 <node TEXT="2. 결측치 처리 및 데이터필터링 기술." ID="ID_273536875" CREATED="1712123937996" MODIFIED="1712123939493">
 <node TEXT="수치형 데이터(numerical data)인데 범주형(categorical data)으로 되어 있다면 (데이터 타입이 ‘object’로 뜸) 수치형으로 변환(ex. astype 활용)해줘야 한다.&#xa;&#xa;데이터에 결측치 (NaN, N/A 등) 가 있거나, 수치형이어야 하는데 범주형/비수치형(non-numerical data) 으로 들어가 있는 데이터" ID="ID_34957878" CREATED="1712123955860" MODIFIED="1712123957677"/>
+<node TEXT="성별이나 기타 이분법적 데이터가 문자일 경우 숫자로 변경 가능한지 고민할것" ID="ID_981132892" CREATED="1712221044088" MODIFIED="1712221123940" COLOR="#ff0033" BACKGROUND_COLOR="#ccffcc">
+<font BOLD="true"/>
+</node>
 </node>
 <node TEXT="3. 누구나 이해하기 쉬운 시각화를 하는 기술." ID="ID_871558910" CREATED="1712123965807" MODIFIED="1712124579779"/>
 <node TEXT="https://jalynne-kim.medium.com/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D-%EA%B8%B0%EC%B4%88-eda%EC%9D%98-%EA%B0%9C%EB%85%90%EA%B3%BC-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D-%EC%9E%98-%ED%95%98%EB%8A%94-%EB%B2%95-a3cac2cc5ebc" ID="ID_897273130" CREATED="1712124581137" MODIFIED="1712124583778"/>
+</node>
+</node>
+<node TEXT="4/04" POSITION="bottom_or_right" ID="ID_995576269" CREATED="1712189492090" MODIFIED="1712198912722">
+<node TEXT="https://david-kim2028.tistory.com/entry/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%A0%84%EC%B2%98%EB%A6%AC-fit-fittransform-transform%EC%9D%98-%EA%B0%9C%EB%85%90-%EC%9D%B5%ED%9E%88%EA%B8%B0" ID="ID_126604197" CREATED="1712189496672" MODIFIED="1712189499857"/>
+<node TEXT="여러 패키지 버전변화가 꽤 있는편임 ( 실무시 버전별로 기록및 노티를 제공해야함이 느껴짐)  가설미검증됨" ID="ID_273088792" CREATED="1712191177951" MODIFIED="1712191249659"/>
+<node TEXT="탐색적 데이터 분석(EDA) 설명 + 예시" ID="ID_77763289" CREATED="1712203545646" MODIFIED="1712203547224">
+<node TEXT="https://www.kaggle.com/code/subinium/kakr-eda" POSITION="bottom_or_right" ID="ID_290672318" CREATED="1712203527070" MODIFIED="1712203529815"/>
+<node TEXT="https://www.kaggle.com/code/daehungwak/guide-kor-dg/notebook" ID="ID_1728515097" CREATED="1712203750819" MODIFIED="1712203752599"/>
+<node TEXT="따라하기 실습파일" ID="ID_1189852343" CREATED="1712203805869" MODIFIED="1712203819226">
+<node TEXT="http://localhost:8888/notebooks/jupy/%EC%8B%9C%EA%B0%81%ED%99%94_%EB%8F%84%EA%B5%ACcode%EC%A0%95%EB%A6%AC.ipynb" ID="ID_667055791" CREATED="1712203820913" MODIFIED="1712203825392"/>
+<node TEXT="중요 함수 = 히트맵을 만들때 문자열이 있으면 안되어 숫자로 이뤄진 테이블로 간편하게 만들수있는 함수&#xa;&#xa;예시) num_df_train = df_train.select_dtypes(include = np.number)" ID="ID_1589301028" CREATED="1712212556456" MODIFIED="1712212630806">
+<node TEXT="문제점 : 히트맵 숫자가 정렬이 안되는 부분이 에러가있다&#xa;해결 : seabron 버전이 문제 버전 업데이트로 해결" ID="ID_1129398935" CREATED="1712215405061" MODIFIED="1712215454842"/>
+<node TEXT="https://wikidocs.net/151224" ID="ID_347369408" CREATED="1712218403322" MODIFIED="1712218406606"/>
+</node>
+</node>
 </node>
 </node>
 </node>
