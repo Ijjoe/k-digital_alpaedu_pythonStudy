@@ -363,6 +363,10 @@
 <node TEXT="https://wikidocs.net/151224" ID="ID_347369408" CREATED="1712218403322" MODIFIED="1712218406606"/>
 </node>
 </node>
+<node TEXT="https://mintaewon.github.io/2020/12/kaggle-titanic-%EC%83%9D%EC%A1%B4%EC%9E%90-%EC%98%88%EC%B8%A1-1-eda/" POSITION="bottom_or_right" ID="ID_142956463" CREATED="1712226961206" MODIFIED="1712226963392"/>
+</node>
+<node TEXT="노트북 대여 공부방 방문학습" ID="ID_308090468" CREATED="1712223365392" MODIFIED="1712223386560">
+<node TEXT="# 이분법 문자열 람다형으로 변환&#xa;#df_train[&apos;NewSex&apos;] = df_train[&apos;Sex&apos;].apply(lambda x: 1 if  x == &apos;female&apos; else 0 )" ID="ID_207652519" CREATED="1712223389915" MODIFIED="1712223392700"/>
 </node>
 </node>
 </node>
