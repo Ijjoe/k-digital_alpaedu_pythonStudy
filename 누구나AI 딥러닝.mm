@@ -369,5 +369,10 @@
 <node TEXT="# 이분법 문자열 람다형으로 변환&#xa;#df_train[&apos;NewSex&apos;] = df_train[&apos;Sex&apos;].apply(lambda x: 1 if  x == &apos;female&apos; else 0 )" ID="ID_207652519" CREATED="1712223389915" MODIFIED="1712223392700"/>
 </node>
 </node>
+<node TEXT="4/5" POSITION="bottom_or_right" ID="ID_243365561" CREATED="1712276619415" MODIFIED="1712276625675">
+<node TEXT="판다스 명령어" ID="ID_80373009" CREATED="1712276627413" MODIFIED="1712276639804">
+<node TEXT="결측치 행전체 제거 df.dropna(axis=0)" ID="ID_1371985613" CREATED="1712276641685" MODIFIED="1712278478059"/>
+</node>
+</node>
 </node>
 </map>
