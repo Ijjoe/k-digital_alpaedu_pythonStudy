@@ -1,6 +1,6 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="누구나AI 딥러닝" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1708914994451"><hook NAME="MapStyle" background="#2e3440" zoom="0.829">
+<node TEXT="누구나AI 딥러닝" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1708914994451"><hook NAME="MapStyle" background="#2e3440" zoom="0.912">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/dark_nord_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
@@ -105,7 +105,7 @@
 <node TEXT="코딩문제은행" ID="ID_1415742526" CREATED="1708917764445" MODIFIED="1708917779601"/>
 </node>
 </node>
-<node TEXT="Offline1차수업" FOLDED="true" POSITION="top_or_left" ID="ID_765409290" CREATED="1710375658377" MODIFIED="1710375676872">
+<node TEXT="Offline1차수업" POSITION="top_or_left" ID="ID_765409290" CREATED="1710375658377" MODIFIED="1710375676872">
 <node TEXT="대회정보" ID="ID_664591970" CREATED="1710376895602" MODIFIED="1710376905993">
 <node TEXT="kaggle, dacon 등 머신러닝 competition" POSITION="top_or_left" ID="ID_409435915" CREATED="1710376816827" MODIFIED="1710376931463">
 <node TEXT="Dacon이라는 Ai경진대회 플랫폼에서 진행한 대회 저장소입니다." ID="ID_1029734673" CREATED="1710376885574" MODIFIED="1710376887438"/>
@@ -176,9 +176,9 @@
 <node TEXT="Fetch and XHR&#xa;------------&#xa;JS" ID="ID_90327366" CREATED="1710832702322" MODIFIED="1710832731324">
 <node TEXT="Preview" ID="ID_310050963" CREATED="1710832848728" MODIFIED="1710832860747">
 <node TEXT="" ID="ID_1351349691" CREATED="1710833303837" MODIFIED="1710833303837"/>
-<node TEXT="JSON" ID="ID_321527274" CREATED="1710833648902" MODIFIED="1710833656708">
-<node TEXT="딕셔너리로 형변환" ID="ID_1307332372" CREATED="1710833653587" MODIFIED="1710833666986">
-<node TEXT="import json&#xa;형변환&#xa;&#xa;json.loads(resp.content)" ID="ID_294279051" CREATED="1710833671303" MODIFIED="1710833856676">
+<node TEXT="JSON" FOLDED="true" ID="ID_321527274" CREATED="1710833648902" MODIFIED="1710833656708">
+<node TEXT="딕셔너리로 형변환" FOLDED="true" ID="ID_1307332372" CREATED="1710833653587" MODIFIED="1710833666986">
+<node TEXT="import json&#xa;형변환&#xa;&#xa;json.loads(resp.content)" FOLDED="true" ID="ID_294279051" CREATED="1710833671303" MODIFIED="1710833856676">
 <font BOLD="true"/>
 <node TEXT="딕셔너리 -&gt; 형변환 dumps({...})" ID="ID_666818788" CREATED="1710833758992" MODIFIED="1710833860755">
 <font BOLD="true"/>
@@ -204,10 +204,10 @@
 <node TEXT="import nltk" POSITION="top_or_left" ID="ID_303763078" CREATED="1711006989067" MODIFIED="1711006995993">
 <node TEXT="자연어 처리 분석도구" ID="ID_1185320461" CREATED="1711007566152" MODIFIED="1711007580624">
 <node TEXT="nltk.download(&apos;punkt&apos;)" POSITION="top_or_left" ID="ID_1329595070" CREATED="1711007774669" MODIFIED="1711007777041">
-<node TEXT="word_tokenize()" POSITION="top_or_left" ID="ID_621419549" CREATED="1711007618157" MODIFIED="1711007632345">
+<node TEXT="word_tokenize()" FOLDED="true" POSITION="top_or_left" ID="ID_621419549" CREATED="1711007618157" MODIFIED="1711007632345">
 <node TEXT="단어별로 토큰화" ID="ID_1009277784" CREATED="1711007649949" MODIFIED="1711007663539"/>
 </node>
-<node TEXT="sent_tokenize" POSITION="top_or_left" ID="ID_909561738" CREATED="1710997487342" MODIFIED="1711006826548">
+<node TEXT="sent_tokenize" FOLDED="true" POSITION="top_or_left" ID="ID_909561738" CREATED="1710997487342" MODIFIED="1711006826548">
 <node TEXT="문장별 토큰화" ID="ID_1376906428" CREATED="1711007604063" MODIFIED="1711007611966"/>
 </node>
 </node>
@@ -232,7 +232,7 @@
 <node TEXT="pip install -i https://test.pypi.org/simple/ example-package-cij" POSITION="top_or_left" ID="ID_441611744" CREATED="1711079642857" MODIFIED="1711079658748"/>
 </node>
 <node TEXT="C:\Users\{사용자위치}" ID="ID_257757999" CREATED="1711079689488" MODIFIED="1711079700779">
-<node TEXT=".pypirc" ID="ID_291465142" CREATED="1711079708657" MODIFIED="1711079710508">
+<node TEXT=".pypirc" FOLDED="true" ID="ID_291465142" CREATED="1711079708657" MODIFIED="1711079710508">
 <node TEXT="[testpypi]&#xa;  username = __token__&#xa;  password = pypi- ...." ID="ID_806015293" CREATED="1711079719558" MODIFIED="1711079736564"/>
 </node>
 </node>
@@ -369,9 +369,31 @@
 <node TEXT="# 이분법 문자열 람다형으로 변환&#xa;#df_train[&apos;NewSex&apos;] = df_train[&apos;Sex&apos;].apply(lambda x: 1 if  x == &apos;female&apos; else 0 )" ID="ID_207652519" CREATED="1712223389915" MODIFIED="1712223392700"/>
 </node>
 </node>
-<node TEXT="4/5" POSITION="bottom_or_right" ID="ID_243365561" CREATED="1712276619415" MODIFIED="1712276625675">
+<node TEXT="4/05" POSITION="bottom_or_right" ID="ID_243365561" CREATED="1712276619415" MODIFIED="1712283878872">
 <node TEXT="판다스 명령어" ID="ID_80373009" CREATED="1712276627413" MODIFIED="1712276639804">
 <node TEXT="결측치 행전체 제거 df.dropna(axis=0)" ID="ID_1371985613" CREATED="1712276641685" MODIFIED="1712278478059"/>
+</node>
+<node TEXT="https://streamlit.io/" ID="ID_1938518061" CREATED="1712297700031" MODIFIED="1712297701511"/>
+<node TEXT="https://airflow.apache.org/" ID="ID_56420639" CREATED="1712297727777" MODIFIED="1712297729296"/>
+</node>
+<node TEXT="프로젝트1차 봄툰 자료" POSITION="top_or_left" ID="ID_1799154733" CREATED="1712283928206" MODIFIED="1712283970719">
+<node TEXT="https://github.com/YoungsikMoon/alpha911/blob/main/README.md" ID="ID_1044307712" CREATED="1712283954223" MODIFIED="1712283958118"/>
+<node TEXT="워크플로우사이트" ID="ID_124623253" CREATED="1712283988291" MODIFIED="1712283998774">
+<node POSITION="top_or_left" ID="ID_877413462" CREATED="1712283942314" MODIFIED="1712284027559" LINK="https://go.gliffy.com/go/html5/launch"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="color: #000000;">https://go.gliffy.com/go/html5/launch</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 </node>
 </node>
