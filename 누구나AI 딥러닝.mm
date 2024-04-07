@@ -391,10 +391,12 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
+</node>
+<node TEXT="4/07(일)" POSITION="bottom_or_right" ID="ID_789667432" CREATED="1712491954808" MODIFIED="1712491969128">
+<node TEXT="불용어처리 테스트 gosi브런치에 저장" ID="ID_1913981305" CREATED="1712495833123" MODIFIED="1712495858906"/>
 </node>
 </node>
 </map>
