@@ -1,6 +1,6 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="누구나AI 딥러닝" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1708914994451"><hook NAME="MapStyle" background="#2e3440" zoom="0.912">
+<node TEXT="누구나AI 딥러닝" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1708914994451"><hook NAME="MapStyle" background="#2e3440" zoom="1.103">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/dark_nord_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
@@ -397,6 +397,12 @@
 </node>
 <node TEXT="4/07(일)" POSITION="bottom_or_right" ID="ID_789667432" CREATED="1712491954808" MODIFIED="1712491969128">
 <node TEXT="불용어처리 테스트 gosi브런치에 저장" ID="ID_1913981305" CREATED="1712495833123" MODIFIED="1712495858906"/>
+</node>
+<node TEXT="4/08" POSITION="bottom_or_right" ID="ID_1680040500" CREATED="1712538039310" MODIFIED="1712538046235">
+<node TEXT="자연어처리조사" ID="ID_500969224" CREATED="1712540459414" MODIFIED="1712540465372">
+<node TEXT="https://brunch.co.kr/@sonnykim/6" POSITION="bottom_or_right" ID="ID_718116004" CREATED="1712540453468" MODIFIED="1712540477556" LINK="https://brunch.co.kr/@sonnykim/6"/>
+</node>
+<node TEXT="공분산" ID="ID_323324288" CREATED="1712549949133" MODIFIED="1712549956492"/>
 </node>
 </node>
 </map>
