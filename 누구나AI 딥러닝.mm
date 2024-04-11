@@ -1,6 +1,6 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="누구나AI 딥러닝" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1708914994451"><hook NAME="MapStyle" background="#2e3440" zoom="0.912">
+<node TEXT="누구나AI 딥러닝" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1712823931157"><hook NAME="MapStyle" background="#2e3440" zoom="0.912">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/dark_nord_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
@@ -354,8 +354,8 @@
 <node TEXT="https://david-kim2028.tistory.com/entry/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%A0%84%EC%B2%98%EB%A6%AC-fit-fittransform-transform%EC%9D%98-%EA%B0%9C%EB%85%90-%EC%9D%B5%ED%9E%88%EA%B8%B0" ID="ID_126604197" CREATED="1712189496672" MODIFIED="1712189499857"/>
 <node TEXT="여러 패키지 버전변화가 꽤 있는편임 ( 실무시 버전별로 기록및 노티를 제공해야함이 느껴짐)  가설미검증됨" ID="ID_273088792" CREATED="1712191177951" MODIFIED="1712191249659"/>
 <node TEXT="탐색적 데이터 분석(EDA) 설명 + 예시" ID="ID_77763289" CREATED="1712203545646" MODIFIED="1712203547224">
-<node TEXT="https://www.kaggle.com/code/subinium/kakr-eda" POSITION="bottom_or_right" ID="ID_290672318" CREATED="1712203527070" MODIFIED="1712203529815"/>
-<node TEXT="https://www.kaggle.com/code/daehungwak/guide-kor-dg/notebook" ID="ID_1728515097" CREATED="1712203750819" MODIFIED="1712203752599"/>
+<node TEXT="https://www.kaggle.com/code/subinium/kakr-eda" POSITION="bottom_or_right" ID="ID_290672318" CREATED="1712203527070" MODIFIED="1712824024986" LINK="https://www.kaggle.com/code/subinium/kakr-eda"/>
+<node TEXT="https://www.kaggle.com/code/daehungwak/guide-kor-dg/notebook" ID="ID_1728515097" CREATED="1712203750819" MODIFIED="1712824034878" LINK="https://www.kaggle.com/code/daehungwak/guide-kor-dg/notebook"/>
 <node TEXT="따라하기 실습파일" ID="ID_1189852343" CREATED="1712203805869" MODIFIED="1712203819226">
 <node TEXT="http://localhost:8888/notebooks/jupy/%EC%8B%9C%EA%B0%81%ED%99%94_%EB%8F%84%EA%B5%ACcode%EC%A0%95%EB%A6%AC.ipynb" ID="ID_667055791" CREATED="1712203820913" MODIFIED="1712203825392"/>
 <node TEXT="중요 함수 = 히트맵을 만들때 문자열이 있으면 안되어 숫자로 이뤄진 테이블로 간편하게 만들수있는 함수&#xa;&#xa;예시) num_df_train = df_train.select_dtypes(include = np.number)" ID="ID_1589301028" CREATED="1712212556456" MODIFIED="1712212630806">
@@ -406,6 +406,33 @@
 </node>
 <node TEXT="4/9" POSITION="top_or_left" ID="ID_570434462" CREATED="1712649150505" MODIFIED="1712649157307">
 <node TEXT="toarray 희소행렬 변환" ID="ID_4854769" CREATED="1712649158651" MODIFIED="1712649188377"/>
+</node>
+<node TEXT="4/11" POSITION="top_or_left" ID="ID_1800828956" CREATED="1712800574871" MODIFIED="1712823931156">
+<node TEXT="TF-IDF(term frequency-inverse document frequency)란 코퍼스(corpus, 문서집합)에서 한 단어가 얼마나 중요한지를 수치적으로 나타낸 가중치이다(term-weighting)." ID="ID_998532517" CREATED="1712800583574" MODIFIED="1712800588103">
+<node TEXT="TfidfVectorizer&#xa;&#xa;원시 문서 모음을 TF-IDF 기능의 매트릭스로 변환합니다.&#xa;&#xa;카운트벡터라이저와 TF-IDF 트랜스포머에 해당합니다.&#xa;&#xa;사용 예는 희소 특징을 사용한 텍스트 문서 분류를 참조하세요.&#xa;&#xa;다른 특징 추출기의 효율성을 비교하려면 FeatureHasher와 DictVectorizer 비교를 참조하세요." ID="ID_577692899" CREATED="1712800596005" MODIFIED="1712800599007"/>
+</node>
+<node TEXT="각팀 발표" ID="ID_227672432" CREATED="1712823932109" MODIFIED="1712823941939"/>
+<node TEXT="ex.describe()" ID="ID_1186385224" CREATED="1712824067305" MODIFIED="1712824803029">
+<node TEXT="df.plot(x=&apos;월&apos;, y=&apos;분양가&apos;, kind=&apos;scatter&apos;)" ID="ID_1826035405" CREATED="1712824429519" MODIFIED="1712824432035">
+<node TEXT="png-240411-173847574-10970549991439190308.png" ID="ID_1940952211" CREATED="1712824732952" MODIFIED="1712824732952">
+<hook URI="누구나AI%20딥러닝_files/png-240411-173847574-10970549991439190308.png" SIZE="0.78125" NAME="ExternalObject"/>
+<node TEXT=" plot(산점도 그래프)" POSITION="top_or_left" ID="ID_437036650" CREATED="1712824724904" MODIFIED="1712824849364">
+<node TEXT="양의 상관관계" ID="ID_286119713" CREATED="1712824962541" MODIFIED="1712824965374"/>
+<node TEXT="음의 상관관계" ID="ID_826242179" CREATED="1712824966781" MODIFIED="1712824971433"/>
+<node TEXT="칸학습" ID="ID_1263559743" CREATED="1712824980617" MODIFIED="1712825059823" LINK="https://ko.khanacademy.org/math/statistics-probability/describing-relationships-quantitative-data/introduction-to-scatterplots/a/scatterplots-and-correlation-review"/>
+<node TEXT="GTP" FOLDED="true" ID="ID_888659483" CREATED="1712825335736" MODIFIED="1712825344398">
+<node TEXT="표준편차(standard deviation)는 데이터가 평균으로부터 얼마나 퍼져 있는지를 나타내는 통계적 지표입니다. 표준편차는 데이터의 분산(variance)의 제곱근으로 계산되며, 데이터의 분포가 평균을 중심으로 얼마나 넓게 퍼져 있는지를 수치로 표현합니다. 표준편차가 중요한 이유와 그 사용례를 자세히 살펴보겠습니다.&#xa;&#xa;표준편차의 중요성&#xa;데이터의 분포 이해: 표준편차는 데이터의 산포도를 측정합니다. 평균만으로는 데이터가 얼마나 퍼져 있는지 알 수 없습니다. 예를 들어, 두 집단의 평균이 같다고 해서 두 집단의 데이터 분포가 같다고 할 수 없습니다. 표준편차를 통해 데이터가 평균 주위로 얼마나 넓게 퍼져 있는지를 파악할 수 있습니다.&#xa;&#xa;이상치(outlier)의 영향 이해: 표준편차는 이상치의 영향을 포착하는 데 도움을 줍니다. 이상치가 있을 경우 표준편차가 커질 수 있기 때문에, 데이터의 일반적인 특성을 이해하는 데 중요한 역할을 합니다.&#xa;&#xa;결정과 예측의 기반: 표준편차는 다양한 분야에서 의사결정과 예측을 위한 중요한 기준으로 사용됩니다. 예를 들어, 금융에서 투자 상품의 위험을 평가할 때 리스크의 크기를 나타내는 지표로 사용되기도 합니다.&#xa;&#xa;정규 분포와의 관계: 많은 자연 현상이나 사회 현상에서 데이터는 정규 분포를 따릅니다. 정규 분포에서는 평균에서 ±1 표준편차 범위 안에 약 68.27%의 데이터가, ±2 표준편차 범위 안에는 약 95.45%의 데이터가 포함되어 있습니다. 이는 데이터의 분포를 이해하는 데 매우 유용합니다.&#xa;&#xa;비교 가능성: 서로 다른 집단 또는 데이터 세트 간의 비교를 할 때, 단순히 평균만을 비교하는 것보다 표준편차를 함께 고려하면 더 정확한 비교가 가능합니다. 표준편차를 고려하면 동일한 평균을 가진 데이터 세트라도 데이터의 분포가 어떻게 다른지 이해할 수 있습니다.&#xa;&#xa;결론&#xa;표준편차는 데이터를 분석하고 이해하는 데 필수적인 도구입니다. 데이터의 평균값만 보는 것이 아니라, 그 데이터가 어떻게 분포되어 있는지를 함께 파악함으로써 더 심층적인 인사이트를 얻을 수 있습니다. 데이터의 변동성을 수치화함으로써 더 정확한 데이터 해석과 의사결정이 가능해집니다." LOCALIZED_STYLE_REF="AutomaticLayout.level,5" POSITION="top_or_left" ID="ID_660395434" CREATED="1712825312255" MODIFIED="1712825376875"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="" ID="ID_753616748" CREATED="1712824786543" MODIFIED="1712824786543">
+<node TEXT="png-240411-173950479-5162379367736989947.png" ID="ID_1786981303" CREATED="1712824791569" MODIFIED="1712824791569">
+<hook URI="누구나AI%20딥러닝_files/png-240411-173950479-5162379367736989947.png" SIZE="1.0" NAME="ExternalObject"/>
+</node>
+<node TEXT="" ID="ID_1368271428" CREATED="1712824839152" MODIFIED="1712824839152"/>
+</node>
+</node>
 </node>
 </node>
 </map>
