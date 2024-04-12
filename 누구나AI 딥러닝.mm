@@ -434,5 +434,12 @@
 </node>
 </node>
 </node>
+<node TEXT="4/12(특강날)" POSITION="bottom_or_right" ID="ID_1710826991" CREATED="1712879973739" MODIFIED="1712879986432">
+<node TEXT="gzip조사" ID="ID_802026329" CREATED="1712879989874" MODIFIED="1712880007117">
+<node TEXT="import gzip&#xa;&#xa;data = &quot;This is some data to be compressed&quot;&#xa;compressed_data = gzip.compress(data.encode(&apos;utf-8&apos;))" ID="ID_686341635" CREATED="1712880021059" MODIFIED="1712880023596"/>
+<node TEXT="with requests.get(url, headers=headers, stream=True) as response:" ID="ID_324511627" CREATED="1712880041512" MODIFIED="1712880043923"/>
+<node TEXT="네, 네트워크 전송 시 gzip 외에도 다양한 데이터 압축 방식을 사용할 수 있습니다. 이러한 압축 방식은 데이터의 전송 효율을 높이고, 대역폭 사용을 최소화하는 데 도움을 줍니다. 여기 몇 가지 대안적인 압축 방식을 소개합니다:&#xa;&#xa;Deflate: Deflate는 gzip의 핵심 압축 알고리즘과 동일하며, 일반적으로 더 빠르게 압축 및 해제할 수 있습니다. 웹에서는 Content-Encoding: deflate 헤더를 사용하여 이 방식으로 압축된 데이터를 나타냅니다. Deflate는 gzip보다 오래되었지만, 여전히 널리 사용되고 있습니다.&#xa;&#xa;Brotli: Google에 의해 개발된 Brotli는 최신 압축 알고리즘 중 하나로, 특히 웹 콘텐츠와 텍스트 데이터 압축에 효율적입니다. Brotli는 gzip보다 더 나은 압축률을 제공하는 경우가 많으며, 현대의 많은 브라우저에서 지원됩니다. 웹 서버와 클라이언트는 Content-Encoding: br 헤더를 통해 Brotli 압축을 지정할 수 있습니다.&#xa;&#xa;Zstandard (zstd): Facebook에 의해 개발된 Zstandard는 높은 압축 비율과 빠른 압축 해제 속도를 제공하는 압축 알고리즘입니다. 이 알고리즘은 대용량 데이터를 효율적으로 압축하고 전송할 때 특히 유용합니다.&#xa;&#xa;LZ4: LZ4는 매우 빠른 압축 및 해제 속도를 자랑하는 알고리즘으로, 실시간 압축에 적합합니다. 비록 압축률은 gzip이나 Brotli만큼 높지 않지만, 속도가 중요한 상황에서 유리합니다." ID="ID_410911154" CREATED="1712880179575" MODIFIED="1712880181412"/>
+</node>
+</node>
 </node>
 </map>
