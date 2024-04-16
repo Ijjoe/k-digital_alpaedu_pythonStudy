@@ -2,8 +2,8 @@
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="음성처리딥러닝" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1713162493227" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" background="#999999" zoom="1.464">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false" associatedTemplateLocation="template:/standard-1.6.mm"/>
+<hook NAME="MapStyle" background="#999999" zoom="0.751">
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" associatedTemplateLocation="template:/standard-1.6.mm" fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -69,7 +69,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="2" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="4" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="4/15(첫수업)" POSITION="bottom_or_right" ID="ID_3200736" CREATED="1713139779309" MODIFIED="1713162663063" BACKGROUND_COLOR="#cc00cc">
 <edge COLOR="#0000ff"/>
 <node TEXT="역사" ID="ID_713756523" CREATED="1713139885498" MODIFIED="1713162705206" HGAP_QUANTITY="-157.6 pt" VSHIFT_QUANTITY="52.8 pt">
@@ -138,9 +138,97 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <font BOLD="false"/>
+</node>
+</node>
+<node TEXT="4/16" POSITION="bottom_or_right" ID="ID_894006311" CREATED="1713224891564" MODIFIED="1713261902889">
+<edge COLOR="#00ff00"/>
+<node ID="ID_134622613" CREATED="1713225107947" MODIFIED="1713225134366" LINK="https://github.com/Ijjoe/Bul4jo"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      미니프로젝트 주소
+    </p>
+    <p>
+      <span style="color: #000000;">https://github.com/Ijjoe/Bul4jo</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="마크다운_차트_프리뷰&#xa;https://mermaid.js.org/intro/" ID="ID_300596282" CREATED="1713227961708" MODIFIED="1713227985759" LINK="https://mermaid.js.org/intro/"/>
+<node TEXT="최초 플젝 사이트 생성" ID="ID_1209634232" CREATED="1713230615965" MODIFIED="1713230629252">
+<node TEXT="https://bul4jo.streamlit.app/" ID="ID_1255622484" CREATED="1713230631766" MODIFIED="1713230649831" LINK="https://bul4jo.streamlit.app/" COLOR="#cc3300">
+<font BOLD="true"/>
+</node>
+</node>
+<node TEXT="콘다 가상환경 설정&#xa;환경 확인 : conda env list&#xa;생성 conda create -n [생성이름]" ID="ID_167983046" CREATED="1713230675876" MODIFIED="1713230920846">
+<node TEXT="vscode 연결" ID="ID_1668003138" CREATED="1713230762119" MODIFIED="1713230958929" HGAP_QUANTITY="-16.6 pt" VSHIFT_QUANTITY="64.8 pt">
+<node TEXT="[Ctrl] + [Shift] + [P]을 누르면 command pallet가 나타난다. 나타난 창에 &apos;Python: Select Interpreter&apos;을 검색하면 아래와 같이 나타남을 확인할 수 있다. 이는 사용가능한 Python Interpreter의 목록이다." ID="ID_542171479" CREATED="1713230791682" MODIFIED="1713230961904">
+<arrowlink DESTINATION="ID_167983046" STARTINCLINATION="3 pt;-7.8 pt;" ENDINCLINATION="268.80001 pt;0 pt;"/>
+<node TEXT="pip install streamlit-extras" ID="ID_512272533" CREATED="1713241101060" MODIFIED="1713241102938"/>
+<node TEXT="https://arnaudmiribel.github.io/streamlit-extras/" ID="ID_30248916" CREATED="1713241116259" MODIFIED="1713241123500" LINK="https://arnaudmiribel.github.io/streamlit-extras/"/>
+<node TEXT="ModuleNotFoundError: This app has encountered an error. The original error message is redacted to prevent data leaks. Full error details have been recorded in the logs (if you&apos;re on Streamlit Cloud, click on &apos;Manage app&apos; in the lower right of your app)." LOCALIZED_STYLE_REF="default" ID="ID_1626815878" CREATED="1713241595184" MODIFIED="1713243283425">
+<node TEXT="requirements.txt 없어서 에러" ID="ID_1730146670" CREATED="1713243111230" MODIFIED="1713243216721" BACKGROUND_COLOR="#00ff99">
+<icon BUILTIN="checked"/>
+<font NAME="HY헤드라인M"/>
+<node TEXT="requirements.txt아래 내용으로 다시 작성:화살표_아래로:&#xa;앱 재부팅 해 줘" ID="ID_1604842978" CREATED="1713246309108" MODIFIED="1713246311201"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="기술적용 조사" ID="ID_1534362663" CREATED="1713233028065" MODIFIED="1713233054374" BACKGROUND_COLOR="#00ff33">
+<node TEXT="https://huggingface.co/upstage/SOLAR-10.7B-Instruct-v1.0" ID="ID_214141864" CREATED="1713233058935" MODIFIED="1713233076464"/>
+<node TEXT="LLM 모델" ID="ID_636515737" CREATED="1713233079492" MODIFIED="1713233162683">
+<node TEXT=" 자연어 처리(NLP) 작업에서 뛰어난 성능을 발휘하는 107억 개의 매개변수를 갖춘 고급 대형 언어 모델(LLM)인 SOLAR-10.7B를 소개" ID="ID_1477329999" CREATED="1713233151022" MODIFIED="1713233162681" HGAP_QUANTITY="-125.8 pt" VSHIFT_QUANTITY="48 pt">
+<node TEXT="upstage/SOLAR-10.7B-Instruct-v1.0" POSITION="bottom_or_right" ID="ID_1382454031" CREATED="1713233114560" MODIFIED="1713233119032">
+<node TEXT="pip install transformers==4.35.2" ID="ID_66514293" CREATED="1713233328797" MODIFIED="1713233332368"/>
+</node>
+<node TEXT="c-s-ale/alpaca-gpt4-data (SFT)&#xa;Open-Orca/OpenOrca (SFT)&#xa;in-house generated data utilizing Metamath [2] (SFT, DPO)&#xa;Intel/orca_dpo_pairs (DPO)&#xa;allenai/ultrafeedback_binarized_cleaned (DPO)" ID="ID_78000184" CREATED="1713233238257" MODIFIED="1713233244408"/>
+</node>
+</node>
+</node>
+<node TEXT="용어정리" ID="ID_1319961746" CREATED="1713261863746" MODIFIED="1713262786394" HGAP_QUANTITY="-202.00001 pt" VSHIFT_QUANTITY="203.4 pt">
+<node TEXT="역전파설명" POSITION="bottom_or_right" ID="ID_761985722" CREATED="1713245525488" MODIFIED="1713262221808" HGAP_QUANTITY="-503.20001 pt" VSHIFT_QUANTITY="-2.4 pt">
+<node TEXT="딥러닝에서의 역전파를 이해하기 위해서는, 먼저 간단한 비유를 생각해 볼 수 있어요. 초등학생에게 설명한다고 생각하고, 케이크를 만드는 과정을 생각해 볼게요.&#xa;&#xa;케이크 만들기: 우리가 케이크를 만들 때 레시피를 따라 재료를 섞고, 오븐에서 굽죠. 처음에는 정확한 온도나 시간을 모르기 때문에 케이크가 잘 안 될 수도 있어요. 이 과정을 딥러닝에서는 &apos;순전파&apos;라고 하고, 여기서는 데이터와 레이블(정답)을 사용해 학습을 진행합니다.&#xa;&#xa;케이크 시식: 케이크가 오븐에서 나왔다고 가정해 볼게요. 우리는 이 케이크가 얼마나 맛있는지 시식해봐야 해요. 만약 케이크가 너무 달거나 너무 싱거우면, 다음 번에는 설탕을 덜 넣거나 더 넣어야겠죠. 이 시식 과정에서 케이크의 맛을 평가하는 것처럼, 딥러닝에서는 &apos;손실 함수&apos;를 사용해 예측이 얼마나 정확한지를 측정합니다.&#xa;&#xa;레시피 조정하기: 케이크 맛이 완벽하지 않다면, 우리는 레시피를 조금씩 조정할 거예요. 예를 들어, 설탕을 조금 더 넣거나 오븐의 온도를 조절하듯이, 딥러닝에서는 이러한 피드백을 바탕으로 &apos;가중치&apos;를 조정합니다. 이 과정을 &apos;역전파&apos;라고 하며, 손실 함수를 통해 얻은 결과(케이크 맛 평가)를 사용해서, 처음의 레시피(모델의 가중치)를 어떻게 바꿀지를 계산해요.&#xa;&#xa;역전파는 케이크 레시피를 조정하는 것처럼, 우리의 인공신경망 모델이 데이터로부터 배우도록 도와주는 방법입니다. 모델이 점점 더 좋아지도록 반복해서 조정하면, 결국에는 맛있는 케이크를 만들 수 있듯이, 정확한 예측을 할 수 있는 모델을 만들 수 있어요." ID="ID_380007954" CREATED="1713245535247" MODIFIED="1713262214538" HGAP_QUANTITY="-133 pt" VSHIFT_QUANTITY="243.60001 pt"/>
+</node>
+<node TEXT="Sequential  모델" POSITION="bottom_or_right" ID="ID_10083311" CREATED="1713260484268" MODIFIED="1713262239371" HGAP_QUANTITY="-187 pt" VSHIFT_QUANTITY="39.6 pt">
+<node TEXT="Sequential 모델은 딥러닝 모델을 구성하는 가장 간단하고 직관적인 방법 중 하나입니다. Sequential 모델은 여러 층(Layers)을 순차적으로 쌓아서 만드는 모델 구조를 말하며, 각 층은 단 하나의 입력과 하나의 출력만을 가지고, 입력은 바로 이전 층의 출력에서만 받습니다." POSITION="bottom_or_right" ID="ID_154370935" CREATED="1713260515598" MODIFIED="1713262181961" HGAP_QUANTITY="-103 pt" VSHIFT_QUANTITY="54.6 pt"/>
+</node>
+<node TEXT="임베딩embedding" POSITION="bottom_or_right" ID="ID_657773481" CREATED="1713261804331" MODIFIED="1713262235920" HGAP_QUANTITY="-413.80001 pt" VSHIFT_QUANTITY="-138.6 pt">
+<node TEXT="딥러닝 기반의 자연어처리 태스크에선 임베딩embedding이라는 추가적인 작업을 통해 하나의 토큰을 다차원의 벡터로 저장합니다. 이때 임베딩된 문자는 2차원의 데이터" POSITION="bottom_or_right" ID="ID_820344578" CREATED="1713261792249" MODIFIED="1713261928648" HGAP_QUANTITY="-64.6 pt" VSHIFT_QUANTITY="40.2 pt"/>
+</node>
+<node TEXT="mnist_model 이 케라스의 모델은 비전데이터를 위한 모델이다" POSITION="bottom_or_right" ID="ID_310096411" CREATED="1713260269408" MODIFIED="1713262264641" HGAP_QUANTITY="-286.00001 pt" VSHIFT_QUANTITY="115.8 pt"/>
+<node TEXT="gpt답변" ID="ID_1748398583" CREATED="1713263576378" MODIFIED="1713263586889">
+<node TEXT="딥러닝은 머신러닝의 한 분야로, 대표적으로 신경망을 사용합니다. 딥러닝 모델은 종종 특성 추출 과정 없이 원본 데이터를 직접 처리할 수 있으며, 학습 과정에서 데이터로부터 복잡한 패턴을 스스로 학습합니다. CNN(Convolutional Neural Networks), RNN(Recurrent Neural Networks), LSTM(Long Short-Term Memory) 등이 텍스트 감정 분석에 주로 사용됩니다. 딥러닝 모델은 더 크고 복잡한 데이터셋에서 뛰어난 성능을 발휘할 수 있으나, 모델의 해석과 훈련에 더 많은 컴퓨팅 자원이 필요하다는 단점이 있습니다.&#xa;&#xa;차이점&#xa;특성 추출: 머신러닝은 수동으로 특성을 정의하고 선택해야 하지만, 딥러닝은 종종 자동으로 특성을 학습합니다.&#xa;데이터 요구량: 딥러닝은 일반적으로 더 많은 데이터를 필요로 하며, 충분한 데이터가 없을 때는 과적합의 위험이 있습니다. 반면, 머신러닝은 상대적으로 적은 데이터로도 효과적일 수 있습니다.&#xa;계산 요구량: 딥러닝은 머신러닝에 비해 일반적으로 더 많은 계산 자원을 필요로 합니다.&#xa;성능: 복잡한 데이터셋에서 딥러닝 모델은 종종 머신러닝 모델보다 더 높은 성능을 보일 수 있습니다." ID="ID_694494980" CREATED="1713263590788" MODIFIED="1713263595329"/>
+<node TEXT="딥러닝 한글 학습과정" ID="ID_1670743274" CREATED="1713263798404" MODIFIED="1713263824394">
+<node TEXT="딥러닝을 위한 데이터 전처리 과정&#xa;토크나이징(Tokenizing): 텍스트를 개별 단어나 토큰으로 분리합니다.&#xa;정수 인코딩(Integer Encoding): 토큰을 정수로 변환합니다.&#xa;패딩(Padding): 모든 입력 데이터가 동일한 길이를 가지도록 조정합니다.&#xa;임베딩(Embedding): 정수 인코딩된 토큰을 고정된 크기의 벡터로 변환합니다.&#xa;전처리 과정 자동화&#xa;딥러닝에서 데이터 전처리 과정을 부분적으로 자동화하거나 간소화하는 방법은 다음과 같습니다:&#xa;&#xa;사전 훈련된 임베딩 사용: Word2Vec, GloVe 또는 FastText와 같은 사전 훈련된 단어 임베딩을 사용하여 토큰화 및 임베딩 과정을 자동화할 수 있습니다. 이러한 임베딩은 이미 토큰을 벡터로 매핑하는 작업을 완료했으므로, 단순히 이를 로드하고 사용하면 됩니다.&#xa;&#xa;임베딩 층 사용: Keras와 같은 딥러닝 프레임워크에서는 Embedding 층을 제공하여, 모델 내에서 직접 토큰을 벡터로 매핑할 수 있습니다. 이 방법은 모델 훈련 과정에서 임베딩을 동시에 학습시키므로, 별도의 임베딩 처리 과정을 생략할 수 있습니다.&#xa;&#xa;자동 피처 엔지니어링: 딥러닝 모델, 특히 깊은 신경망은 데이터의 복잡한 특성을 자동으로 학습할 수 있는 능력을 가지고 있습니다. 예를 들어, CNN은 이미지 처리에 강력하지만 텍스트 데이터에서도 특정 패턴이나 특징을 자동으로 인식하는 데 사용될 수 있습니다." ID="ID_1878783985" CREATED="1713263827298" MODIFIED="1713263834076">
+<node TEXT="" ID="ID_1427271688" CREATED="1713263864972" MODIFIED="1713263864972"/>
+<node TEXT="png-240416-193748040-11888037448983857257.png" ID="ID_757627109" CREATED="1713263870324" MODIFIED="1713263870324">
+<hook URI="음성처리_딥러닝_files/png-240416-193748040-11888037448983857257.png" SIZE="0.7633588" NAME="ExternalObject"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="4월26일까지 과제" POSITION="bottom_or_right" ID="ID_1019482362" CREATED="1713250946715" MODIFIED="1713262120168" HGAP_QUANTITY="165.8 pt" VSHIFT_QUANTITY="-269.40001 pt" BACKGROUND_COLOR="#ff66ff">
+<node TEXT="https://github.com/e9t/nsmc" POSITION="bottom_or_right" ID="ID_1745660540" CREATED="1713250941489" MODIFIED="1713262018688" BACKGROUND_COLOR="#ff6666">
+<node TEXT="imdb에 정수 인코딩된 영화리뷰를 디코딩하여 첫번째리뷰를 영문변환으로 본 코드" ID="ID_1924640916" CREATED="1713261616531" MODIFIED="1713261669634">
+<node TEXT="from tensorflow.keras.datasets import imdb&#xa;&#xa;&#xa;# 데이터 로드 (단어 인덱스 포함)&#xa;(train_data, train_labels), (test_data, test_labels) = imdb.load_data(num_words=10000)&#xa;&#xa;# word_index는 단어를 정수 인덱스로 매핑한 딕셔너리&#xa;word_index = imdb.get_word_index()&#xa;&#xa;# 인덱스:단어 매핑을 위한 딕셔너리 생성&#xa;reverse_word_index = dict([(value, key) for (key, value) in word_index.items()])&#xa;&#xa;# 첫 번째 리뷰를 디코딩&#xa;decoded_review = &apos; &apos;.join([reverse_word_index.get(i - 3, &apos;?&apos;) for i in train_data[0]])&#xa;&#xa;print(decoded_review)" ID="ID_1607444995" CREATED="1713261658795" MODIFIED="1713261672490" HGAP_QUANTITY="-57.4 pt" VSHIFT_QUANTITY="278.40001 pt"/>
+</node>
+</node>
+<node TEXT="네이버영화리뷰 한글 전처리" ID="ID_1035742078" CREATED="1713262303252" MODIFIED="1713262317348">
+<node TEXT="불용어처리" ID="ID_52732157" CREATED="1713262320588" MODIFIED="1713262334048"/>
+<node TEXT="토크나이저" ID="ID_632601934" CREATED="1713262336252" MODIFIED="1713262340729"/>
+<node TEXT="임베딩" ID="ID_1221133714" CREATED="1713262345366" MODIFIED="1713262349233"/>
+</node>
 </node>
 </node>
 </node>
