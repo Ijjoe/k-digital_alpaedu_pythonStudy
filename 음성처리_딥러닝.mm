@@ -70,7 +70,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="8" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="9" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="4/15(첫수업)" POSITION="bottom_or_right" ID="ID_3200736" CREATED="1713139779309" MODIFIED="1713162663063" BACKGROUND_COLOR="#cc00cc">
 <edge COLOR="#0000ff"/>
 <node TEXT="역사" ID="ID_713756523" CREATED="1713139885498" MODIFIED="1713162705206" HGAP_QUANTITY="-157.6 pt" VSHIFT_QUANTITY="52.8 pt">
@@ -171,7 +171,7 @@
 <node TEXT="콘다 가상환경 설정&#xa;환경 확인 : conda env list&#xa;생성 conda create -n [생성이름]" ID="ID_167983046" CREATED="1713230675876" MODIFIED="1713230920846">
 <node TEXT="vscode 연결" ID="ID_1668003138" CREATED="1713230762119" MODIFIED="1713230958929" HGAP_QUANTITY="-16.6 pt" VSHIFT_QUANTITY="64.8 pt">
 <node TEXT="[Ctrl] + [Shift] + [P]을 누르면 command pallet가 나타난다. 나타난 창에 &apos;Python: Select Interpreter&apos;을 검색하면 아래와 같이 나타남을 확인할 수 있다. 이는 사용가능한 Python Interpreter의 목록이다." ID="ID_542171479" CREATED="1713230791682" MODIFIED="1713230961904">
-<arrowlink DESTINATION="ID_167983046" STARTINCLINATION="3 pt;-6.6 pt;" ENDINCLINATION="268.80001 pt;0 pt;"/>
+<arrowlink DESTINATION="ID_167983046" STARTINCLINATION="3 pt;-6 pt;" ENDINCLINATION="268.80001 pt;0 pt;"/>
 <node TEXT="pip install streamlit-extras" ID="ID_512272533" CREATED="1713241101060" MODIFIED="1713241102938"/>
 <node TEXT="https://arnaudmiribel.github.io/streamlit-extras/" ID="ID_30248916" CREATED="1713241116259" MODIFIED="1713315378143" LINK="https://arnaudmiribel.github.io/streamlit-extras/">
 <font BOLD="true"/>
@@ -257,6 +257,29 @@
 </node>
 <node TEXT="4/19일" POSITION="top_or_left" ID="ID_1771647760" CREATED="1713503629738" MODIFIED="1713503643919" HGAP_QUANTITY="-68.8 pt" VSHIFT_QUANTITY="212.40001 pt">
 <edge COLOR="#007c00"/>
+<node TEXT="어텐션" ID="ID_523870476" CREATED="1713503675651" MODIFIED="1713503697259"/>
+<node TEXT="AttributeError: &apos;float&apos; object has no attribute &apos;split&apos;" ID="ID_860437543" CREATED="1713513468715" MODIFIED="1713513537439">
+<node TEXT="엑셀을 읽어올때 .fillna(&quot;&quot;)를 넣어서 빈칸을 공백으로 넣어줬더니&#xa;에러가 해결되었다.&#xa;https://onu0624.tistory.com/42" ID="ID_1512045976" CREATED="1713513507636" MODIFIED="1713513531615"/>
+</node>
+<node TEXT="https://www.codetree.ai/landing" ID="ID_938922170" CREATED="1713515304580" MODIFIED="1713515306346"/>
+<node TEXT="결측치확인" ID="ID_310110179" CREATED="1713516183455" MODIFIED="1713516188787">
+<node TEXT="train_text[train_text[&apos;document&apos;].isna()]" ID="ID_1264426004" CREATED="1713516191075" MODIFIED="1713516199967"/>
+</node>
+<node TEXT="https://www.snugarchive.com/blog/python-data-visualization-seaborn-advanced/" FOLDED="true" ID="ID_1538958285" CREATED="1713535045122" MODIFIED="1713535127780" LINK="https://www.snugarchive.com/blog/python-data-visualization-seaborn-advanced/">
+<node TEXT="png-240419-225730658-4407147093626049554.png" ID="ID_1355163629" CREATED="1713535051871" MODIFIED="1713535051871">
+<hook URI="음성처리_딥러닝_files/png-240419-225730658-4407147093626049554.png" SIZE="0.71005917" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="구현 안되는 부분" ID="ID_124929301" CREATED="1713538213967" MODIFIED="1713538230879">
+<node TEXT="데이터프레임의 컬럼스의 카운터" ID="ID_998418489" CREATED="1713538231513" MODIFIED="1713538282090">
+<node TEXT="naverReview=pd.DataFrame(data=word_len,columns=[&apos;count&apos;])&#xa;naverReview.groupby(&apos;count&apos;).size()&#xa;sns 그래프" ID="ID_192777298" CREATED="1713538290641" MODIFIED="1713538312069"/>
+</node>
+</node>
+<node TEXT="Tokenizer는 데이터에 출현하는 모든 단어의 개수를 세고 빈도 수로 정렬해서 num_words에 지정된 만큼만 숫자로 반환하고 나머지는 0으로 반환합니다.&#xa;tokenizer.fit_on_texts(sentences)는 Tokenizer에 데이터를 실제로 입력합니다.&#xa;tokenizer.texts_to_sequences(sentence)는 문장을 입력받아 숫자를 반환합니다.&#xa;마지막으로 pad_sequences()는 입력된 데이터에 패딩을 더합니다.&#xa;pad_sequences()의 인수에는 pre &amp; post가 있는데, pre는 문장의 앞에 패딩을 넣고, post는 문장의 뒤에 패딩을 넣습니다. 여기에서는 post를 사용합니다." ID="ID_575894682" CREATED="1713540057665" MODIFIED="1713540061058"/>
+</node>
+<node TEXT="에러메세지" POSITION="bottom_or_right" ID="ID_1322745533" CREATED="1713542308349" MODIFIED="1713542319739">
+<edge COLOR="#7c007c"/>
+<node TEXT="model 적용시 ValueError: Input 0 of layer &quot;sequential_1&quot; is incompatible with the layer: expected shape=(None, 25), found shape=(None, 20) 에러 코드인데 무엇이 문제인가" ID="ID_162061928" CREATED="1713542322331" MODIFIED="1713542324101"/>
 </node>
 </node>
 </map>
