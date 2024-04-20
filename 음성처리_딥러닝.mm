@@ -1,6 +1,6 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="음성(자연어)처리딥러닝" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1713503643921" BACKGROUND_COLOR="#ccffcc" STYLE="oval">
+<node TEXT="음성(자연어)처리딥러닝" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1713582760378" BACKGROUND_COLOR="#ccffcc" STYLE="oval">
 <icon BUILTIN="idea"/>
 <font SIZE="18" BOLD="true"/>
 <hook NAME="MapStyle" background="#999999" zoom="0.912">
@@ -70,7 +70,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="9" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="10" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="4/15(첫수업)" POSITION="bottom_or_right" ID="ID_3200736" CREATED="1713139779309" MODIFIED="1713162663063" BACKGROUND_COLOR="#cc00cc">
 <edge COLOR="#0000ff"/>
 <node TEXT="역사" ID="ID_713756523" CREATED="1713139885498" MODIFIED="1713162705206" HGAP_QUANTITY="-157.6 pt" VSHIFT_QUANTITY="52.8 pt">
@@ -255,7 +255,7 @@
 </node>
 <node TEXT="딥러닝 케라스&#xa;https://jominseoo.tistory.com/55" ID="ID_1670943450" CREATED="1713429794722" MODIFIED="1713429814245" LINK="https://jominseoo.tistory.com/55"/>
 </node>
-<node TEXT="4/19일" POSITION="top_or_left" ID="ID_1771647760" CREATED="1713503629738" MODIFIED="1713503643919" HGAP_QUANTITY="-68.8 pt" VSHIFT_QUANTITY="212.40001 pt">
+<node TEXT="4/19일" POSITION="top_or_left" ID="ID_1771647760" CREATED="1713503629738" MODIFIED="1713582760376" HGAP_QUANTITY="54.8 pt" VSHIFT_QUANTITY="188.40001 pt">
 <edge COLOR="#007c00"/>
 <node TEXT="어텐션" ID="ID_523870476" CREATED="1713503675651" MODIFIED="1713503697259"/>
 <node TEXT="AttributeError: &apos;float&apos; object has no attribute &apos;split&apos;" ID="ID_860437543" CREATED="1713513468715" MODIFIED="1713513537439">
@@ -276,10 +276,21 @@
 </node>
 </node>
 <node TEXT="Tokenizer는 데이터에 출현하는 모든 단어의 개수를 세고 빈도 수로 정렬해서 num_words에 지정된 만큼만 숫자로 반환하고 나머지는 0으로 반환합니다.&#xa;tokenizer.fit_on_texts(sentences)는 Tokenizer에 데이터를 실제로 입력합니다.&#xa;tokenizer.texts_to_sequences(sentence)는 문장을 입력받아 숫자를 반환합니다.&#xa;마지막으로 pad_sequences()는 입력된 데이터에 패딩을 더합니다.&#xa;pad_sequences()의 인수에는 pre &amp; post가 있는데, pre는 문장의 앞에 패딩을 넣고, post는 문장의 뒤에 패딩을 넣습니다. 여기에서는 post를 사용합니다." ID="ID_575894682" CREATED="1713540057665" MODIFIED="1713540061058"/>
+<node TEXT="딥러닝 LSTM 네이버영화리뷰" ID="ID_1741943718" CREATED="1713546670684" MODIFIED="1713546966047" LINK="https://dschloe.github.io/python/tensorflow2.0/ch7_3_sentimentanalysis/#6-%EB%AA%A8%ED%98%95-%EA%B2%B0%EA%B3%BC-%EC%8B%9C%EA%B0%81%ED%99%94"/>
 </node>
 <node TEXT="에러메세지" POSITION="bottom_or_right" ID="ID_1322745533" CREATED="1713542308349" MODIFIED="1713542319739">
 <edge COLOR="#7c007c"/>
 <node TEXT="model 적용시 ValueError: Input 0 of layer &quot;sequential_1&quot; is incompatible with the layer: expected shape=(None, 25), found shape=(None, 20) 에러 코드인데 무엇이 문제인가" ID="ID_162061928" CREATED="1713542322331" MODIFIED="1713542324101"/>
+</node>
+<node TEXT="4/20일" POSITION="top_or_left" ID="ID_894795982" CREATED="1713582754332" MODIFIED="1713582771296">
+<edge COLOR="#007c7c"/>
+<node TEXT="코드문법" ID="ID_1961838678" CREATED="1713582782206" MODIFIED="1713582810699">
+<node TEXT="파이썬" ID="ID_931607816" CREATED="1713582816188" MODIFIED="1713582827279">
+<node TEXT="IF" ID="ID_1892866586" CREATED="1713582843017" MODIFIED="1713582846757">
+<node TEXT="my=[&apos;korea&apos;,&apos;English&apos;,&apos;france&apos;]&#xa;&#xa;new=[x for x in my if &apos;E&apos; in x]&#xa;&#xa;print(new)" POSITION="top_or_left" ID="ID_1101881352" CREATED="1713582830980" MODIFIED="1713582833450"/>
+</node>
+</node>
+</node>
 </node>
 </node>
 </map>
