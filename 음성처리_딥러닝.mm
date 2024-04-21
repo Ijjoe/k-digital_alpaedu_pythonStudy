@@ -70,7 +70,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="10" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="11" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="4/15(첫수업)" POSITION="bottom_or_right" ID="ID_3200736" CREATED="1713139779309" MODIFIED="1713162663063" BACKGROUND_COLOR="#cc00cc">
 <edge COLOR="#0000ff"/>
 <node TEXT="역사" ID="ID_713756523" CREATED="1713139885498" MODIFIED="1713162705206" HGAP_QUANTITY="-157.6 pt" VSHIFT_QUANTITY="52.8 pt">
@@ -290,6 +290,12 @@
 <node TEXT="my=[&apos;korea&apos;,&apos;English&apos;,&apos;france&apos;]&#xa;&#xa;new=[x for x in my if &apos;E&apos; in x]&#xa;&#xa;print(new)" POSITION="top_or_left" ID="ID_1101881352" CREATED="1713582830980" MODIFIED="1713582833450"/>
 </node>
 </node>
+</node>
+</node>
+<node TEXT="4월21" POSITION="bottom_or_right" ID="ID_96347397" CREATED="1713672039435" MODIFIED="1713672088226">
+<edge COLOR="#7c7c00"/>
+<node TEXT="커스텀 에러처리 예시" ID="ID_1549779461" CREATED="1713672070952" MODIFIED="1713672081126">
+<node TEXT="class BigNum(Exception):&#xa;    def __init__(self, *args: object) -&gt; None:&#xa;        super().__init__(*args)&#xa;&#xa;    def __str__(self) -&gt; str:&#xa;        return super().__str__()&#xa;    &#xa;&#xa;try:&#xa;    num1=int(input(&apos;n1 : &apos;))&#xa;    num2=int(input(&apos;n2 : &apos;))&#xa;    if num1 &gt;=10 or num2 &gt;= 10:&#xa;        raise BigNum(&quot;입력값에러 {}, {}&quot;.format(num1,num2))&#xa;    print(int(num1/num2))&#xa;except ValueError:&#xa;    print(&quot;no hanjari&quot;)&#xa;except BigNum as err:&#xa;    print(&quot;두자리 숫자가 있습니다. 확인하세요&quot;)   &#xa;    print(err)" POSITION="bottom_or_right" ID="ID_1575753580" CREATED="1713672054134" MODIFIED="1713672088223" HGAP_QUANTITY="141.8 pt"/>
 </node>
 </node>
 </node>
