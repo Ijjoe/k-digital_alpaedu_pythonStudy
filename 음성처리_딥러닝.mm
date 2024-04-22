@@ -70,7 +70,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="11" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="12" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="4/15(첫수업)" POSITION="bottom_or_right" ID="ID_3200736" CREATED="1713139779309" MODIFIED="1713162663063" BACKGROUND_COLOR="#cc00cc">
 <edge COLOR="#0000ff"/>
 <node TEXT="역사" ID="ID_713756523" CREATED="1713139885498" MODIFIED="1713162705206" HGAP_QUANTITY="-157.6 pt" VSHIFT_QUANTITY="52.8 pt">
@@ -171,8 +171,8 @@
 <node TEXT="콘다 가상환경 설정&#xa;환경 확인 : conda env list&#xa;생성 conda create -n [생성이름]" ID="ID_167983046" CREATED="1713230675876" MODIFIED="1713230920846">
 <node TEXT="vscode 연결" ID="ID_1668003138" CREATED="1713230762119" MODIFIED="1713230958929" HGAP_QUANTITY="-16.6 pt" VSHIFT_QUANTITY="64.8 pt">
 <node TEXT="[Ctrl] + [Shift] + [P]을 누르면 command pallet가 나타난다. 나타난 창에 &apos;Python: Select Interpreter&apos;을 검색하면 아래와 같이 나타남을 확인할 수 있다. 이는 사용가능한 Python Interpreter의 목록이다." ID="ID_542171479" CREATED="1713230791682" MODIFIED="1713230961904">
-<arrowlink DESTINATION="ID_167983046" STARTINCLINATION="3 pt;-6 pt;" ENDINCLINATION="268.80001 pt;0 pt;"/>
-<node TEXT="pip install streamlit-extras" ID="ID_512272533" CREATED="1713241101060" MODIFIED="1713241102938"/>
+<arrowlink DESTINATION="ID_167983046" STARTINCLINATION="3 pt;-5.25 pt;" ENDINCLINATION="268.49999 pt;0 pt;"/>
+<node TEXT="pip install streamlit" ID="ID_512272533" CREATED="1713241101060" MODIFIED="1713716119426"/>
 <node TEXT="https://arnaudmiribel.github.io/streamlit-extras/" ID="ID_30248916" CREATED="1713241116259" MODIFIED="1713315378143" LINK="https://arnaudmiribel.github.io/streamlit-extras/">
 <font BOLD="true"/>
 </node>
@@ -297,6 +297,21 @@
 <node TEXT="커스텀 에러처리 예시" ID="ID_1549779461" CREATED="1713672070952" MODIFIED="1713672081126">
 <node TEXT="class BigNum(Exception):&#xa;    def __init__(self, *args: object) -&gt; None:&#xa;        super().__init__(*args)&#xa;&#xa;    def __str__(self) -&gt; str:&#xa;        return super().__str__()&#xa;    &#xa;&#xa;try:&#xa;    num1=int(input(&apos;n1 : &apos;))&#xa;    num2=int(input(&apos;n2 : &apos;))&#xa;    if num1 &gt;=10 or num2 &gt;= 10:&#xa;        raise BigNum(&quot;입력값에러 {}, {}&quot;.format(num1,num2))&#xa;    print(int(num1/num2))&#xa;except ValueError:&#xa;    print(&quot;no hanjari&quot;)&#xa;except BigNum as err:&#xa;    print(&quot;두자리 숫자가 있습니다. 확인하세요&quot;)   &#xa;    print(err)" POSITION="bottom_or_right" ID="ID_1575753580" CREATED="1713672054134" MODIFIED="1713672088223" HGAP_QUANTITY="141.8 pt"/>
 </node>
+</node>
+<node TEXT="4월21일" POSITION="top_or_left" ID="ID_1082664011" CREATED="1713715242278" MODIFIED="1713715248896">
+<edge COLOR="#ff0000"/>
+<node TEXT="조코딩유데미" ID="ID_125102893" CREATED="1713715253297" MODIFIED="1713715271676">
+<node TEXT="https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main" ID="ID_1424835202" CREATED="1713715260999" MODIFIED="1713715390758" LINK="https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main">
+<icon BUILTIN="full-1"/>
+</node>
+<node TEXT="pip install ctransformers" ID="ID_1556625269" CREATED="1713715368833" MODIFIED="1713715412039">
+<icon BUILTIN="full-2"/>
+</node>
+<node TEXT="pip install -U langchain-community" ID="ID_1135255371" CREATED="1713715376714" MODIFIED="1713717313233">
+<icon BUILTIN="full-3"/>
+</node>
+</node>
+<node TEXT="conda serach  찾을이름" ID="ID_999549251" CREATED="1713717076225" MODIFIED="1713717140415"/>
 </node>
 </node>
 </map>
