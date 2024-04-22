@@ -310,6 +310,17 @@
 <node TEXT="pip install -U langchain-community" ID="ID_1135255371" CREATED="1713715376714" MODIFIED="1713717313233">
 <icon BUILTIN="full-3"/>
 </node>
+<node TEXT="pip install chromadb" ID="ID_442777724" CREATED="1713803426263" MODIFIED="1713803442880">
+<icon BUILTIN="full-4"/>
+</node>
+<node TEXT="pip install pypdf" ID="ID_1783608006" CREATED="1713803486683" MODIFIED="1713803560458">
+<icon BUILTIN="full-5"/>
+</node>
+<node TEXT="requirements.txt" ID="ID_1849805041" CREATED="1713803503418" MODIFIED="1713803564881">
+<icon BUILTIN="neutral"/>
+<node TEXT="langchain&#xa;openai&#xa;pypdf&#xa;chromadb&#xa;pysqlite3-binary&#xa;tiktoken" ID="ID_1794187988" CREATED="1713803523366" MODIFIED="1713805455942"/>
+</node>
+<node TEXT="streamlit run main.py" ID="ID_1997366479" CREATED="1713803844590" MODIFIED="1713803913494"/>
 </node>
 <node TEXT="conda serach  찾을이름" ID="ID_999549251" CREATED="1713717076225" MODIFIED="1713717140415"/>
 </node>
