@@ -321,6 +321,8 @@
 <node TEXT="langchain&#xa;openai&#xa;pypdf&#xa;chromadb&#xa;pysqlite3-binary&#xa;tiktoken" ID="ID_1794187988" CREATED="1713803523366" MODIFIED="1713805455942"/>
 </node>
 <node TEXT="streamlit run main.py" ID="ID_1997366479" CREATED="1713803844590" MODIFIED="1713803913494"/>
+<node TEXT="랭체인 스트리밍 검색" ID="ID_1118929947" CREATED="1713805932426" MODIFIED="1713805945916"/>
+<node TEXT="수익화 buy me a coffee" ID="ID_1904941310" CREATED="1713805949493" MODIFIED="1713806021898"/>
 </node>
 <node TEXT="conda serach  찾을이름" ID="ID_999549251" CREATED="1713717076225" MODIFIED="1713717140415"/>
 </node>
