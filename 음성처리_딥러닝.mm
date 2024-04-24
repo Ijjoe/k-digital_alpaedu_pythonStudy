@@ -1,6 +1,6 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="음성(자연어)처리딥러닝" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1713582760378" BACKGROUND_COLOR="#ccffcc" STYLE="oval">
+<node TEXT="음성(자연어)처리딥러닝" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1713917080231" BACKGROUND_COLOR="#ccffcc" STYLE="oval">
 <icon BUILTIN="idea"/>
 <font SIZE="18" BOLD="true"/>
 <hook NAME="MapStyle" background="#999999" zoom="0.912">
@@ -70,7 +70,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="13" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="14" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="4/15(첫수업)" POSITION="bottom_or_right" ID="ID_3200736" CREATED="1713139779309" MODIFIED="1713162663063" BACKGROUND_COLOR="#cc00cc">
 <edge COLOR="#0000ff"/>
 <node TEXT="역사" ID="ID_713756523" CREATED="1713139885498" MODIFIED="1713162705206" HGAP_QUANTITY="-157.6 pt" VSHIFT_QUANTITY="52.8 pt">
@@ -171,7 +171,7 @@
 <node TEXT="콘다 가상환경 설정&#xa;환경 확인 : conda env list&#xa;생성 conda create -n [생성이름]" ID="ID_167983046" CREATED="1713230675876" MODIFIED="1713230920846">
 <node TEXT="vscode 연결" ID="ID_1668003138" CREATED="1713230762119" MODIFIED="1713230958929" HGAP_QUANTITY="-16.6 pt" VSHIFT_QUANTITY="64.8 pt">
 <node TEXT="[Ctrl] + [Shift] + [P]을 누르면 command pallet가 나타난다. 나타난 창에 &apos;Python: Select Interpreter&apos;을 검색하면 아래와 같이 나타남을 확인할 수 있다. 이는 사용가능한 Python Interpreter의 목록이다." ID="ID_542171479" CREATED="1713230791682" MODIFIED="1713230961904">
-<arrowlink DESTINATION="ID_167983046" STARTINCLINATION="3 pt;-3.75 pt;" ENDINCLINATION="268.49999 pt;0 pt;"/>
+<arrowlink DESTINATION="ID_167983046" STARTINCLINATION="3 pt;-3 pt;" ENDINCLINATION="268.20001 pt;0 pt;"/>
 <node TEXT="pip install streamlit" ID="ID_512272533" CREATED="1713241101060" MODIFIED="1713716119426"/>
 <node TEXT="https://arnaudmiribel.github.io/streamlit-extras/" ID="ID_30248916" CREATED="1713241116259" MODIFIED="1713315378143" LINK="https://arnaudmiribel.github.io/streamlit-extras/">
 <font BOLD="true"/>
@@ -331,6 +331,13 @@
 <node TEXT="내적으로 기준 잡을수있다" ID="ID_1563786789" CREATED="1713846913270" MODIFIED="1713846934693"/>
 <node TEXT="음성조사 gpt" ID="ID_818173973" CREATED="1713887233243" MODIFIED="1713887252176">
 <node TEXT="OpenAI&apos;s Whisper: OpenAI has developed a robust automatic speech recognition system named Whisper, which is trained on a diverse, multilingual dataset. This model is notable for its accuracy and robustness in handling different accents and background noises. Whisper&apos;s models and code are open-sourced, making them a valuable resource for developers and researchers interested in speech processing technologies. You can find more information and access the resources on OpenAI&apos;s GitHub page [[40†source]].&#xa;Coqui STT: This is an open-source deep learning toolkit for Speech-to-Text, designed to make it easy to train and deploy speech-to-text models. It provides an accessible way to work with speech recognition technologies and is supported by a community of developers and users on GitHub [[41†source]].&#xa;TensorFlow Speech Recognition: TensorFlow offers a tutorial on building a basic speech recognition network that recognizes ten different words from the Speech Commands dataset. This is a practical starting point for beginners looking to understand the basics of audio processing and speech recognition with deep learning [[44†source]].&#xa;Coursera&apos;s Speech Recognition Courses: Platforms like Coursera offer courses developed by top institutions and companies in the field of AI and deep learning. You can find specialized courses on speech recognition and natural language processing, which often include certification upon completion [[43†source]].&#xa;Analytics Vidhya&apos;s Speech to Text Tutorial: This tutorial walks through the process of converting speech to text using deep learning in Python. It utilizes libraries such as Librosa for audio processing and provides a hands-on approach to understanding the mechanics behind speech recognition models [[42†source]]." ID="ID_746660720" CREATED="1713887245827" MODIFIED="1713887254226"/>
+</node>
+</node>
+<node TEXT="4월24일" POSITION="top_or_left" ID="ID_444392240" CREATED="1713917078642" MODIFIED="1713917087397">
+<edge COLOR="#00ff00"/>
+<node TEXT="음성" ID="ID_26356952" CREATED="1713917089665" MODIFIED="1713918389973">
+<node TEXT="https://github.com/TensorSpeech/TensorFlowASR" ID="ID_1544546154" CREATED="1713917100963" MODIFIED="1713917103245"/>
+<node TEXT="코랩 깃허브에 requirementts의 setup.py 설치 돕는 명령어&#xa;&#xa;!pip install git+https://github.com/TensorSpeech/TensorFlowASR.git" ID="ID_688136262" CREATED="1713918391300" MODIFIED="1713918457118"/>
 </node>
 </node>
 </node>
