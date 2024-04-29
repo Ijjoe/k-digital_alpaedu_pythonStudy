@@ -70,7 +70,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="14" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="15" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="4/15(첫수업)" POSITION="bottom_or_right" ID="ID_3200736" CREATED="1713139779309" MODIFIED="1713162663063" BACKGROUND_COLOR="#cc00cc">
 <edge COLOR="#0000ff"/>
 <node TEXT="역사" ID="ID_713756523" CREATED="1713139885498" MODIFIED="1713162705206" HGAP_QUANTITY="-157.6 pt" VSHIFT_QUANTITY="52.8 pt">
@@ -171,7 +171,7 @@
 <node TEXT="콘다 가상환경 설정&#xa;환경 확인 : conda env list&#xa;생성 conda create -n [생성이름]" ID="ID_167983046" CREATED="1713230675876" MODIFIED="1713230920846">
 <node TEXT="vscode 연결" ID="ID_1668003138" CREATED="1713230762119" MODIFIED="1713230958929" HGAP_QUANTITY="-16.6 pt" VSHIFT_QUANTITY="64.8 pt">
 <node TEXT="[Ctrl] + [Shift] + [P]을 누르면 command pallet가 나타난다. 나타난 창에 &apos;Python: Select Interpreter&apos;을 검색하면 아래와 같이 나타남을 확인할 수 있다. 이는 사용가능한 Python Interpreter의 목록이다." ID="ID_542171479" CREATED="1713230791682" MODIFIED="1713230961904">
-<arrowlink DESTINATION="ID_167983046" STARTINCLINATION="3 pt;-3 pt;" ENDINCLINATION="268.20001 pt;0 pt;"/>
+<arrowlink DESTINATION="ID_167983046" STARTINCLINATION="3 pt;-2.4 pt;" ENDINCLINATION="268.20001 pt;0 pt;"/>
 <node TEXT="pip install streamlit" ID="ID_512272533" CREATED="1713241101060" MODIFIED="1713716119426"/>
 <node TEXT="https://arnaudmiribel.github.io/streamlit-extras/" ID="ID_30248916" CREATED="1713241116259" MODIFIED="1713315378143" LINK="https://arnaudmiribel.github.io/streamlit-extras/">
 <font BOLD="true"/>
@@ -338,6 +338,14 @@
 <node TEXT="음성" ID="ID_26356952" CREATED="1713917089665" MODIFIED="1713918389973">
 <node TEXT="https://github.com/TensorSpeech/TensorFlowASR" ID="ID_1544546154" CREATED="1713917100963" MODIFIED="1713917103245"/>
 <node TEXT="코랩 깃허브에 requirementts의 setup.py 설치 돕는 명령어&#xa;&#xa;!pip install git+https://github.com/TensorSpeech/TensorFlowASR.git" ID="ID_688136262" CREATED="1713918391300" MODIFIED="1713918457118"/>
+</node>
+</node>
+<node TEXT="4월29일" POSITION="bottom_or_right" ID="ID_1932287961" CREATED="1714357746063" MODIFIED="1714357756070">
+<edge COLOR="#ff00ff"/>
+<node TEXT="streamlit 파이콘" ID="ID_411814843" CREATED="1714357765246" MODIFIED="1714357784062">
+<node TEXT="https://streamlit-emoji-shortcodes-streamlit-app-gwckff.streamlit.app/" FOLDED="true" ID="ID_1374513087" CREATED="1714357786096" MODIFIED="1714357796539" LINK="https://streamlit-emoji-shortcodes-streamlit-app-gwckff.streamlit.app/">
+<node TEXT="https://streamlit-emoji-shortcodes-streamlit-app-gwckff.streamlit.app/" ID="ID_437505187" CREATED="1714357791792" MODIFIED="1714357791792" LINK="https://streamlit-emoji-shortcodes-streamlit-app-gwckff.streamlit.app/"/>
+</node>
 </node>
 </node>
 </node>
