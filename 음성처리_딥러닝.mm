@@ -161,6 +161,9 @@
   </body>
 </html>
 </richcontent>
+<node TEXT="프리지" ID="ID_844371332" CREATED="1714725114744" MODIFIED="1714725123338">
+<node TEXT="https://prezi.com/p/edit/le4-1vus3sdp/" ID="ID_734086605" CREATED="1714725124258" MODIFIED="1714725126436"/>
+</node>
 </node>
 <node TEXT="마크다운_차트_프리뷰&#xa;https://mermaid.js.org/intro/" ID="ID_300596282" CREATED="1713227961708" MODIFIED="1713227985759" LINK="https://mermaid.js.org/intro/"/>
 <node TEXT="최초 플젝 사이트 생성" ID="ID_1209634232" CREATED="1713230615965" MODIFIED="1713230629252">
@@ -171,7 +174,7 @@
 <node TEXT="콘다 가상환경 설정&#xa;환경 확인 : conda env list&#xa;생성 conda create -n [생성이름]" ID="ID_167983046" CREATED="1713230675876" MODIFIED="1713230920846">
 <node TEXT="vscode 연결" ID="ID_1668003138" CREATED="1713230762119" MODIFIED="1713230958929" HGAP_QUANTITY="-16.6 pt" VSHIFT_QUANTITY="64.8 pt">
 <node TEXT="[Ctrl] + [Shift] + [P]을 누르면 command pallet가 나타난다. 나타난 창에 &apos;Python: Select Interpreter&apos;을 검색하면 아래와 같이 나타남을 확인할 수 있다. 이는 사용가능한 Python Interpreter의 목록이다." ID="ID_542171479" CREATED="1713230791682" MODIFIED="1713230961904">
-<arrowlink DESTINATION="ID_167983046" STARTINCLINATION="3 pt;-2.4 pt;" ENDINCLINATION="268.20001 pt;0 pt;"/>
+<arrowlink DESTINATION="ID_167983046" STARTINCLINATION="3 pt;-1.8 pt;" ENDINCLINATION="268.20001 pt;0 pt;"/>
 <node TEXT="pip install streamlit" ID="ID_512272533" CREATED="1713241101060" MODIFIED="1713716119426"/>
 <node TEXT="https://arnaudmiribel.github.io/streamlit-extras/" ID="ID_30248916" CREATED="1713241116259" MODIFIED="1713315378143" LINK="https://arnaudmiribel.github.io/streamlit-extras/">
 <font BOLD="true"/>
